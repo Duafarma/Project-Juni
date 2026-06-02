@@ -149,7 +149,7 @@
                                 $master->execute();
                                 while($hasil= $master->fetch(PDO::FETCH_ASSOC)){
                             ?>
-                            <option value="<?php echo($hasil['id_out']); ?>"><?php echo($hasil['nama_out']); ?></option>
+                            <option value="<?php echo($hasil['id_out']); ?>" data-nama="<?php echo htmlspecialchars($hasil['nama_out'], ENT_QUOTES); ?>"><?php echo($hasil['nama_out']); ?></option>
                             <?php } ?>
                             </select>
                             <span id="outlet-xicon" style="display:none; position:absolute; right:10px; top:50%; transform:translateY(-50%); color:#c82333; font-size:22px; pointer-events:none;">&#10006;</span>
@@ -206,7 +206,32 @@
                     <label class="custom-control-label" for="cito_tidak">Tidak</label>
                 </div>
             </div>
-            
+
+            <?php
+                // Ambil data master_mr_baru untuk dropdown MR
+                $mr_options = [];
+                try {
+                    $mr_query = $conn->query("SELECT id_mr, nama_mr, area FROM master_mr_baru ORDER BY nama_mr ASC");
+                    if($mr_query) $mr_options = $mr_query->fetchAll(PDO::FETCH_ASSOC);
+                } catch(Exception $e) { $mr_options = []; }
+            ?>
+
+            <!-- Kolom MR (muncul di sebelah Cito saat outlet tertentu dipilih) -->
+            <div class="col-sm-3 mg-t-10 section-mr-col" id="section_mr_info" style="display:none;">
+                <label style="font-weight:600; color:#856404;"><i class="fas fa-user-tie"></i> MR <span class="tx-danger">*</span></label>
+                <select name="id_mr" id="id_mr" class="form-control select2">
+                    <option value="">-- Pilih MR --</option>
+                    <?php foreach($mr_options as $mr): ?>
+                    <option value="<?php echo $mr['id_mr']; ?>"><?php echo htmlspecialchars($mr['nama_mr']); ?> (<?php echo htmlspecialchars($mr['area']); ?>)</option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+            <!-- Kolom Keterangan MR -->
+            <div class="col-sm-3 mg-t-10 section-mr-col" id="section_ket_mr" style="display:none;">
+                <label style="font-weight:600; color:#856404;"><i class="fas fa-sticky-note"></i> Keterangan MR</label>
+                <input type="text" name="ket_mr" id="ket_mr" class="form-control" placeholder="Keterangan tambahan..." />
+            </div>
+
             <!-- Garis pemisah -->
             <div class="col-sm-12 mg-t-20 mg-b-15">
                 <hr style="border: 2px solid #007bff; margin: 15px 0;">
@@ -640,6 +665,47 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+// Toggle section MR berdasarkan outlet yang dipilih (deteksi via nama option)
+function checkOutletMR() {
+    var outletEl   = document.getElementById('outlet');
+    var section    = document.getElementById('section_mr_info');
+    var sectionKet = document.getElementById('section_ket_mr');
+    var idMr       = document.getElementById('id_mr');
+    var ketMr      = document.getElementById('ket_mr');
+    if (!section || !outletEl) return;
+
+    var selectedOpt = outletEl.options[outletEl.selectedIndex];
+    var namaNow = selectedOpt ? (selectedOpt.getAttribute('data-nama') || selectedOpt.text || '') : '';
+    var namaNormalized = namaNow.toUpperCase();
+
+    var tampil = (namaNormalized.indexOf('MUDITA PHARMA') !== -1 || namaNormalized.indexOf('JALI FARMA') !== -1);
+
+    if (tampil) {
+        section.style.display = 'block';
+        if (sectionKet) sectionKet.style.display = 'block';
+        // init select2 MR jika belum
+        if (typeof $ !== 'undefined' && $.fn.select2 && idMr) {
+            try { if (!$(idMr).data('select2')) { $(idMr).select2({ width: '100%' }); } } catch(e) {}
+        }
+    } else {
+        section.style.display = 'none';
+        if (sectionKet) sectionKet.style.display = 'none';
+        if (idMr) { idMr.value = ''; if (typeof $ !== 'undefined' && $.fn.select2) try { $(idMr).val('').trigger('change.select2'); } catch(e){} }
+        if (ketMr) ketMr.value = '';
+    }
+}
+
+// Pasang event — harus setelah DOM siap
+document.addEventListener('DOMContentLoaded', function() {
+    var outletEl = document.getElementById('outlet');
+    if (outletEl) {
+        outletEl.addEventListener('change', checkOutletMR);
+        if (typeof $ !== 'undefined' && $.fn.select2) {
+            $(outletEl).on('select2:select select2:unselect', checkOutletMR);
+        }
+    }
+});
+
 // Hapus booking nomor faktur otomatis saat halaman di-refresh atau ditutup
 window.addEventListener('beforeunload', function() {
     var keycode = document.getElementById("keycode") ? document.getElementById("keycode").value : $("input[name='keycode']").val();
