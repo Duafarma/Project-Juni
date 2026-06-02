@@ -58,6 +58,7 @@
 						A.total_tfk,
 						A.status_tfk,
 						A.status_limit,
+						A.id_mr,
 						B.nama_out,
 						D.nama_rkb
 					FROM
@@ -146,6 +147,12 @@
 			$pajak	= ($data->akses($admin, $menu, 'A.read_status')==='Active') ? '<a target="_blank" href="'.$sistem.'/laporan/xps/faktursales/pajak.php?key='.$hasil['id_tfk'].'" title="Cetak Faktur"><span class="badge badge-success"><i class="fa fa-print"></i></span></a>' : '';
 		    $manual_revisi = ($data->akses($admin, $menu, 'A.update_status')==='Active' && in_array($hasil['status_tfk'],array('Faktur','Tagihan', 'Revisi', 'Revisi Faktur Manual'))) ? '<a href="#modal1" onclick="crud(\'fsales\', \'manual_revision\', \''.$hasil['id_tfk'].'\')" data-toggle="modal" title="Revisi Faktur Manual"><span class="badge badge-secondary"><i class="fa fa-edit"></i></span></a> ' : '';
 
+			// Tombol Manual - muncul hanya jika id_mr terisi (> 0)
+			$manual_ceklis = '';
+			if (isset($hasil['id_mr']) && (int)$hasil['id_mr'] > 0 && in_array($hasil['status_tfk'], array('Tagihan','Revisi','Revisi Faktur Manual'))) {
+				$manual_ceklis = '<a href="'.$sistem.'/fsales/manual/'.$uniq.'" title="Faktur Manual"><span class="badge badge-danger"><i class="fa fa-check"></i></span></a> ';
+			}
+
 			// Format nomor faktur dengan indikator revisi / retur-item
 			$nomor_faktur = $hasil['kode_tfk'];
 			if ($hasil['status_tfk'] === 'Revisi') {
@@ -165,7 +172,7 @@
 			                <td><center>'.$hasil['tglpo_tfk'].'</center></td>
 			                <td><div align="right">'.$data->angka($hasil['total_tfk']).'</div></td>
 			                <td><center>'.$view.'</center></td>
-			                <td><center>'.$item.$edititem.$edit.$delete.$manual_revisi.'</center></td>
+			                <td><center>'.$item.$edititem.$edit.$delete.$manual_revisi.$manual_ceklis.'</center></td>
 			                <td><center>'.$viewe.'</center></td>
 			                <td><center>'.$suhu.'</center></td>
 			                <td><center>'.$sph.'</center></td>

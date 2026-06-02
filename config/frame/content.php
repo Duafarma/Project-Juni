@@ -145,6 +145,12 @@ switch ($menu) {
 	case "itemsales":
 		require_once("content/fsales/item.php");
 		break;
+	case "manualfsales":
+		require_once("content/fsales/manual_item.php");
+		break;
+	case "daftarmanualfsales":
+		require_once("content/fsales/daftar_manual.php");
+		break;
 	case "efsales":
 		require_once("content/fsales/edit.php");
 		break;

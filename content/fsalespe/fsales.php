@@ -333,6 +333,27 @@
                 </a>
             </div>
         </div>
+
+        <!-- Faktur Manual -->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="module-card">
+                <div class="module-icon" style="background: #dc3545; border: 2px solid #b02a37;">
+                    <i class="fa fa-check" style="color: white;"></i>
+                </div>
+                <div class="module-title">
+                    Faktur Manual
+                    <span class="stats-badge" style="background: #fdecea; color: #b71c1c; border: 1px solid #ef9a9a;">MR</span>
+                </div>
+                <div class="module-desc">
+                    Daftar faktur manual yang dibuat dari faktur penjualan dengan data MR. Cetak Surat Pengantar Barang.
+                </div>
+                <a href="<?php echo($data->sistem('url_sis').'/fsales/daftarmanual'); ?>" style="text-decoration: none;">
+                    <button class="module-btn" style="background: #dc3545; border-color: #dc3545; color: white;">
+                        <i class="fa fa-arrow-right"></i> Buka Modul
+                    </button>
+                </a>
+            </div>
+        </div>
     </div>
 
     <div class="table-responsive" style="margin-top: 30px;">
