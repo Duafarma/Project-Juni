@@ -219,7 +219,7 @@
             <!-- Kolom MR (muncul di sebelah Cito saat outlet tertentu dipilih) -->
             <div class="col-sm-3 mg-t-10 section-mr-col" id="section_mr_info" style="display:none;">
                 <label style="font-weight:600; color:#856404;"><i class="fas fa-user-tie"></i> MR <span class="tx-danger">*</span></label>
-                <select name="id_mr" id="id_mr" class="form-control select2">
+                <select name="id_mr" id="id_mr" class="form-control select2-mr" style="width:100%;">
                     <option value="">-- Pilih MR --</option>
                     <?php foreach($mr_options as $mr): ?>
                     <option value="<?php echo $mr['id_mr']; ?>"><?php echo htmlspecialchars($mr['nama_mr']); ?> (<?php echo htmlspecialchars($mr['area']); ?>)</option>
@@ -683,9 +683,13 @@ function checkOutletMR() {
     if (tampil) {
         section.style.display = 'block';
         if (sectionKet) sectionKet.style.display = 'block';
-        // init select2 MR jika belum
+        // init select2 MR
         if (typeof $ !== 'undefined' && $.fn.select2 && idMr) {
-            try { if (!$(idMr).data('select2')) { $(idMr).select2({ width: '100%' }); } } catch(e) {}
+            try {
+                if (!$(idMr).data('select2')) {
+                    $(idMr).select2({ width: '100%', placeholder: '-- Pilih MR --', allowClear: true });
+                }
+            } catch(e) {}
         }
     } else {
         section.style.display = 'none';

@@ -39,6 +39,8 @@
 			$ccp	= isset($_POST['ccp']) ? $secu->injection($_POST['ccp']) : 'tidak ada';
 			$cito	= isset($_POST['cito']) ? $secu->injection($_POST['cito']) : 'ga cito';
 			$ket	= 'ket';
+			$id_mr	= isset($_POST['id_mr']) ? (int)$_POST['id_mr'] : 0;
+			$ket_mr	= isset($_POST['ket_mr']) ? $secu->injection($_POST['ket_mr']) : '';
 			// Handle konsinyasi
 			$dari_konsinyasi = isset($_POST['dari_konsinyasi']) ? $secu->injection($_POST['dari_konsinyasi']) : 'tidak';
 			$id_faktur_konsinyasi = isset($_POST['id_faktur_konsinyasi']) ? $secu->injection($_POST['id_faktur_konsinyasi']) : '';
@@ -110,6 +112,8 @@
 											program,
 											dari_konsinyasi,
 											id_tfk_konsinyasi,
+                                                                              id_mr,
+                                                                              ket_mr,
 											created_at,
 											created_by,
 											updated_at,
@@ -136,6 +140,8 @@
 										:program,
 										:dari_konsinyasi,
 										:id_faktur_konsinyasi,
+										:id_mr,
+										:ket_mr,
 										:catat, 
 										:admin, 
 										:catat, 
@@ -162,7 +168,8 @@
 							$save->bindParam(':program', $program, PDO::PARAM_STR);
 							$save->bindParam(':dari_konsinyasi', $dari_konsinyasi, PDO::PARAM_STR);
 							$save->bindParam(':id_faktur_konsinyasi', $id_faktur_konsinyasi, PDO::PARAM_STR);
-
+                                                       $save->bindParam(':id_mr', $id_mr, PDO::PARAM_INT);
+                                                       $save->bindParam(':ket_mr', $ket_mr, PDO::PARAM_STR);
 							$save->bindParam(':catat', $catat, PDO::PARAM_STR);
 							$save->bindParam(':admin', $admin, PDO::PARAM_STR);
 							$save->execute();
