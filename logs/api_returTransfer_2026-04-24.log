@@ -1,0 +1,11 @@
+2026-04-24 10:55:03 - REQUEST: {"nmenu":"transferretur","nact":"input","kode":"TRF\/001\/RET\/BKS\/IV\/2026","transfer_apl_type":"OUT","tanggal":"2026-04-24","transfer_apl_from":"APL05","transfer_apl_to":"APL01","keterangan":"bekasi","product":["PRO00088"],"kodestok":["15"],"bcode":["4NA60606"],"idpsd":["15"],"namaproduct":["NATACEN MD"],"id_trd":["13"],"tgl_expired":["2026-06-01"],"tgl_psd":["2026-04-22"],"gudang":["bekasi"],"harga":["41.625"],"jumlah":["1"],"cartaddProductReturTransfer":"15","countaddProductReturTransfer":"1","id":"TRR1777002903"} ACT: input
+2026-04-24 10:55:03 - REQUEST DETAILS:
+2026-04-24 10:55:03 - ID: TRR1777002903
+2026-04-24 10:55:03 - KODE: TRF/001/RET/BKS/IV/2026
+2026-04-24 10:55:03 - ENCRYPT: 04a13c312a790588948811f3f8f34706
+2026-04-24 10:55:03 - ACT: input
+2026-04-24 10:55:03 - POST DATA: {"nmenu":"transferretur","nact":"input","kode":"TRF\/001\/RET\/BKS\/IV\/2026","transfer_apl_type":"OUT","tanggal":"2026-04-24","transfer_apl_from":"APL05","transfer_apl_to":"APL01","keterangan":"bekasi","product":["PRO00088"],"kodestok":["15"],"bcode":["4NA60606"],"idpsd":["15"],"namaproduct":["NATACEN MD"],"id_trd":["13"],"tgl_expired":["2026-06-01"],"tgl_psd":["2026-04-22"],"gudang":["bekasi"],"harga":["41.625"],"jumlah":["1"],"cartaddProductReturTransfer":"15","countaddProductReturTransfer":"1","id":"TRR1777002903"}
+2026-04-24 10:55:03 - Using provided external code: TRF/001/RET/BKS/IV/2026
+2026-04-24 10:55:03 - RESULT: Success
+2026-04-24 10:55:03 ======== END REQUEST ========
+

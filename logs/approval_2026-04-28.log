@@ -1,0 +1,6 @@
+2026-04-28 15:39:02 - Starting approval process for id=TRR1777002903, kode=TRF/001/RET/BKS/IV/2026, status=Approved
+2026-04-28 15:39:02 - Updated local record, rows affected: 1
+2026-04-28 15:39:02 - Updated inventory item 63: Added 1
+2026-04-28 15:39:02 - Calling API at: https://imsduafarma.link/192.06.03/api/postProductReturTransfer.php?act=approval&encrypt=7dd21130ee5dc720c1e44f8611863e6f
+2026-04-28 15:39:03 - API Response Code: 200
+2026-04-28 15:39:03 - API Response: {"success":true,"message":"Operasi berhasil","result":"Success","data":{"id":"TRR1777002903","kode":"TRF\/001\/RET\/BKS\/IV\/2026"},"errors":[]}

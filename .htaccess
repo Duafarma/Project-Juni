@@ -1,0 +1,551 @@
+<IfModule mod_deflate.c>
+	# Compress HTML, CSS, JavaScript, Text, XML and fonts
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/rss+xml
+	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+	AddOutputFilterByType DEFLATE application/x-font
+	AddOutputFilterByType DEFLATE application/x-font-opentype
+	AddOutputFilterByType DEFLATE application/x-font-otf
+	AddOutputFilterByType DEFLATE application/x-font-truetype
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE font/opentype
+	AddOutputFilterByType DEFLATE font/otf
+	AddOutputFilterByType DEFLATE font/ttf
+	AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE image/x-icon
+	AddOutputFilterByType DEFLATE image/jpg
+	AddOutputFilterByType DEFLATE image/jpeg
+	AddOutputFilterByType DEFLATE image/png
+	AddOutputFilterByType DEFLATE image/gif
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/xml
+	
+	# Remove browser bugs (only needed for really old browsers)
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+	Header append Vary User-Agent
+</IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ sistem.php?menu=home [L]
+
+    RewriteRule ^signin$ signin.php [L]
+    RewriteRule ^signout$ signout.php [L]
+    RewriteRule ^homepim$ sistem.php?menu=homepim [L]
+    rewriteRule ^home$ sistem.php?menu=home [L]
+    RewriteRule ^provinsi$ sistem.php?menu=provinsi [L]
+    RewriteRule ^provinsi/cari=(.*)$ sistem.php?menu=provinsi&cari=$1 [L]
+    RewriteRule ^kabupaten$ sistem.php?menu=kabupaten [L]
+    RewriteRule ^kabupaten/cari=(.*)$ sistem.php?menu=kabupaten&cari=$1 [L]
+    RewriteRule ^kproduk$ sistem.php?menu=kproduk [L]
+    RewriteRule ^kproduk/cari=(.*)$ sistem.php?menu=kproduk&cari=$1 [L]
+    RewriteRule ^koutlet$ sistem.php?menu=koutlet [L]
+    RewriteRule ^koutlet/cari=(.*)$ sistem.php?menu=koutlet&cari=$1 [L]
+    RewriteRule ^ksupplier$ sistem.php?menu=ksupplier [L]
+    RewriteRule ^ksupplier/cari=(.*)$ sistem.php?menu=ksupplier&cari=$1 [L]
+    RewriteRule ^klegal$ sistem.php?menu=klegal [L]
+    RewriteRule ^klegal/cari=(.*)$ sistem.php?menu=klegal&cari=$1 [L]
+    RewriteRule ^sproduk$ sistem.php?menu=sproduk [L]
+    RewriteRule ^sproduk/cari=(.*)$ sistem.php?menu=sproduk&cari=$1 [L]
+    RewriteRule ^outlet$ sistem.php?menu=outlet [L]
+    RewriteRule ^dispro/out=(.*)&cari(.*)$ sistem.php?menu=dispro&keycode=$1&cari=$2 [L]
+    RewriteRule ^outlet/cari=(.*)$ sistem.php?menu=outlet&cari=$1 [L]
+    RewriteRule ^outlet/i$ sistem.php?menu=ioutlet [L]
+    RewriteRule ^outlet/e/(.*)$ sistem.php?menu=eoutlet&keycode=$1 [L]
+    RewriteRule ^outlet/v/(.*)$ sistem.php?menu=voutlet&keycode=$1 [L]
+    RewriteRule ^outlet/p/(.*)$ sistem.php?menu=poutlet&keycode=$1 [L]
+    RewriteRule ^supplier$ sistem.php?menu=supplier [L]
+    RewriteRule ^supplier/cari=(.*)$ sistem.php?menu=supplier&cari=$1 [L]
+    RewriteRule ^supplier/i$ sistem.php?menu=isupplier [L]
+    RewriteRule ^supplier/e/(.*)$ sistem.php?menu=esupplier&keycode=$1 [L]
+    RewriteRule ^supplier/v/(.*)$ sistem.php?menu=vsupplier&keycode=$1 [L]
+    RewriteRule ^batchcode$ sistem.php?menu=batchcode [L]
+    RewriteRule ^batchcode/cari=(.*)$ sistem.php?menu=batchcode&cari=$1 [L]
+    RewriteRule ^produk$ sistem.php?menu=produk [L]
+    RewriteRule ^produk/cari=(.*)$ sistem.php?menu=produk&cari=$1 [L]
+    RewriteRule ^hproduk/(.*)$ sistem.php?menu=hproduk&keycode=$1 [L]
+    RewriteRule ^produk/v/(.*)$ sistem.php?menu=vproduk&keycode=$1 [L]
+    RewriteRule ^porder$ sistem.php?menu=porder [L]
+    RewriteRule ^porder/cari=(.*)$ sistem.php?menu=porder&cari=$1 [L]
+    RewriteRule ^psales$ sistem.php?menu=psales [L]
+    RewriteRule ^psales/cari=(.*)$ sistem.php?menu=psales&cari=$1 [L]
+    RewriteRule ^tfaktur$ sistem.php?menu=tfaktur [L]
+    RewriteRule ^tfaktur/cari=(.*)$ sistem.php?menu=tfaktur&cari=$1 [L]
+    RewriteRule ^inventory$ sistem.php?menu=inventory [L]
+    RewriteRule ^inventory/cari=(.*)$ sistem.php?menu=inventory&cari=$1 [L]
+    RewriteRule ^tfstok$ sistem.php?menu=tfstok [L]
+    RewriteRule ^tfstok/cari=(.*)$ sistem.php?menu=tfstok&cari=$1 [L]
+    RewriteRule ^tfstok/i$ sistem.php?menu=itfstok [L]
+    RewriteRule ^tfstok/e/(.*)$ sistem.php?menu=etfstok&keycode=$1 [L]
+    RewriteRule ^tfstok/v/(.*)$ sistem.php?menu=vtfstok&keycode=$1 [L]
+    RewriteRule ^tfaktur$ sistem.php?menu=tfaktur [L]
+    RewriteRule ^tfaktur/cari=(.*)$ sistem.php?menu=tfaktur&cari=$1 [L]
+    RewriteRule ^htfaktur/(.*)$ sistem.php?menu=htfaktur&keycode=$1 [L]
+    RewriteRule ^tfaktur/v/(.*)$ sistem.php?menu=vtfaktur&keycode=$1 [L]
+    RewriteRule ^order$ sistem.php?menu=order [L]
+    RewriteRule ^order/cari=(.*)$ sistem.php?menu=order&cari=$1 [L]
+    RewriteRule ^order/i$ sistem.php?menu=iorder [L]
+    RewriteRule ^order/e/(.*)$ sistem.php?menu=eorder&keycode=$1 [L]
+    RewriteRule ^order/v/(.*)$ sistem.php?menu=vorder&keycode=$1 [L]
+    RewriteRule ^rorder$ sistem.php?menu=rorder [L]
+    RewriteRule ^rorder/cari=(.*)$ sistem.php?menu=rorder&cari=$1 [L]
+    RewriteRule ^rorder/i$ sistem.php?menu=irorder [L]
+    RewriteRule ^rorder/e/(.*)$ sistem.php?menu=erorder&keycode=$1 [L]
+    RewriteRule ^rorder/v/(.*)$ sistem.php?menu=vrorder&keycode=$1 [L]
+    RewriteRule ^sales$ sistem.php?menu=sales [L]
+    RewriteRule ^sales/cari=(.*)$ sistem.php?menu=sales&cari=$1 [L]
+    RewriteRule ^sales/i$ sistem.php?menu=isales [L]
+    RewriteRule ^sales/e/(.*)$ sistem.php?menu=esales&keycode=$1 [L]
+    RewriteRule ^sales/v/(.*)$ sistem.php?menu=vsales&keycode=$1 [L]
+    RewriteRule ^fsales$ sistem.php?menu=fsales [L]
+    RewriteRule ^fsales/cari=(.*)$ sistem.php?menu=fsales&cari=$1 [L]
+    RewriteRule ^fsales/i$ sistem.php?menu=ifsales [L]
+    RewriteRule ^itemsales/(.*)$ sistem.php?menu=itemsales&keycode=$1 [L]
+    RewriteRule ^fsales/e/(.*)$ sistem.php?menu=efsales&keycode=$1 [L]
+    RewriteRule ^fsales/v/(.*)$ sistem.php?menu=vfsales&keycode=$1 [L]
+    RewriteRule ^sistem$ sistem.php?menu=sistem [L]
+    RewriteRule ^sistem/e$ sistem.php?menu=esistem [L]
+    RewriteRule ^rstok$ sistem.php?menu=rstok [L]
+    RewriteRule ^rstok/cari=(.*)$ sistem.php?menu=rstok&cari=$1 [L]
+    RewriteRule ^rpenjualan$ sistem.php?menu=rpenjualan [L]
+    RewriteRule ^rpenjualan/cari=(.*)$ sistem.php?menu=rpenjualan&cari=$1 [L]
+    RewriteRule ^rspenjualan$ sistem.php?menu=rspenjualan [L]
+    RewriteRule ^rspenjualan/cari=(.*)$ sistem.php?menu=rspenjualan&cari=$1 [L]
+    RewriteRule ^rpembelian$ sistem.php?menu=rpembelian [L]
+    RewriteRule ^rpembelian/cari=(.*)$ sistem.php?menu=rpembelian&cari=$1 [L]
+    RewriteRule ^red$ sistem.php?menu=red [L]
+    RewriteRule ^red/cari=(.*)$ sistem.php?menu=red&cari=$1 [L]
+    RewriteRule ^rjtoutlet$ sistem.php?menu=rjtoutlet [L]
+    RewriteRule ^rjtoutlet/cari=(.*)$ sistem.php?menu=rjtoutlet&cari=$1 [L]
+    RewriteRule ^rjtsupplier$ sistem.php?menu=rjtsupplier [L]
+    RewriteRule ^rjtsupplier/cari=(.*)$ sistem.php?menu=rjtsupplier&cari=$1 [L]
+    RewriteRule ^rpjoutlet$ sistem.php?menu=rpjoutlet [L]
+    RewriteRule ^rpjoutlet/cari=(.*)$ sistem.php?menu=rpjoutlet&cari=$1 [L]
+    RewriteRule ^rpjobat$ sistem.php?menu=rpjobat [L]
+    RewriteRule ^rpjobat/cari=(.*)$ sistem.php?menu=rpjobat&cari=$1 [L]
+    RewriteRule ^rproduk$ sistem.php?menu=rproduk [L]
+    RewriteRule ^rproduk/cari=(.*)$ sistem.php?menu=rproduk&cari=$1 [L]
+    RewriteRule ^gpembelian$ sistem.php?menu=gpembelian [L]
+    RewriteRule ^gpembelian/cari=(.*)$ sistem.php?menu=gpembelian&cari=$1 [L]
+    RewriteRule ^gpenjualan$ sistem.php?menu=gpenjualan [L]
+    RewriteRule ^gpenjualan/cari=(.*)$ sistem.php?menu=gpenjualan&cari=$1 [L]
+    RewriteRule ^administrator$ sistem.php?menu=administrator [L]
+    RewriteRule ^administrator/i$ sistem.php?menu=iadministrator [L]
+    RewriteRule ^administrator/e/(.*)$ sistem.php?menu=eadministrator&key=$1 [L]
+    RewriteRule ^administrator/cari=(.*)$ sistem.php?menu=administrator&cari=$1 [L]
+    RewriteRule ^riwayat$ sistem.php?menu=riwayat [L]
+    RewriteRule ^riwayat/cari=(.*)$ sistem.php?menu=riwayat&cari=$1 [L]
+    RewriteRule ^hakakses$ sistem.php?menu=hakakses [L]
+    RewriteRule ^hakakses/cari=(.*)$ sistem.php?menu=hakakses&cari=$1 [L]
+    RewriteRule ^apoteker$ sistem.php?menu=apoteker [L]
+    RewriteRule ^apoteker/cari=(.*)$ sistem.php?menu=apoteker&cari=$1 [L]
+    RewriteRule ^rankpenjualan$ sistem.php?menu=rankpenjualan [L]
+    RewriteRule ^rankpenjualan/cari=(.*)$ sistem.php?menu=rankpenjualan&cari=$1 [L]
+    RewriteRule ^kmenu$ sistem.php?menu=kmenu [L]
+    RewriteRule ^kmenu/cari=(.*)$ sistem.php?menu=kmenu&cari=$1 [L]
+    RewriteRule ^icon$ sistem.php?menu=icon [L]
+    RewriteRule ^icon/cari=(.*)$ sistem.php?menu=icon&cari=$1 [L]
+    RewriteRule ^menu$ sistem.php?menu=menu [L]
+    RewriteRule ^menu/cari=(.*)$ sistem.php?menu=menu&cari=$1 [L]
+    RewriteRule ^submenu$ sistem.php?menu=submenu [L]
+    RewriteRule ^submenu/cari=(.*)$ sistem.php?menu=submenu&cari=$1 [L]
+    RewriteRule ^rolemenu$ sistem.php?menu=rolemenu [L]
+    RewriteRule ^rolemenu/cari=(.*)$ sistem.php?menu=rolemenu&cari=$1 [L]
+    RewriteRule ^cabang$ sistem.php?menu=cabang [L]
+    RewriteRule ^cabang/cari=(.*)$ sistem.php?menu=cabang&cari=$1 [L]
+    RewriteRule ^gudang$ sistem.php?menu=gudang [L]
+    RewriteRule ^gudang/cari=(.*)$ sistem.php?menu=gudang&cari=$1 [L]
+    RewriteRule ^transferstok$ sistem.php?menu=transferstok [L]
+    RewriteRule ^transferstok/cari=(.*)$ sistem.php?menu=transferstok&cari=$1 [L]
+    RewriteRule ^transferstok/i$ sistem.php?menu=itransferstok [L]
+    RewriteRule ^transferstok/e/(.*)$ sistem.php?menu=etransferstok&keycode=$1 [L]
+    RewriteRule ^transferstok/v/(.*)$ sistem.php?menu=vtransferstok&keycode=$1 [L]
+    RewriteRule ^rtransferstok$ sistem.php?menu=rtransferstok [L]
+    RewriteRule ^rtransferstok/cari=(.*)$ sistem.php?menu=rtransferstok&cari=$1 [L]
+    RewriteRule ^fsalesd$ sistem.php?menu=fsalesd [L]
+    RewriteRule ^fsalesd/cari=(.*)$ sistem.php?menu=fsalesd&cari=$1 [L]
+    RewriteRule ^fsalesd/i$ sistem.php?menu=ifsalesd [L]
+    RewriteRule ^itemsalesd/(.*)$ sistem.php?menu=itemsalesd&keycode=$1 [L]
+    RewriteRule ^fsalesd/e/(.*)$ sistem.php?menu=efsalesd&keycode=$1 [L]
+    RewriteRule ^fsalesd/v/(.*)$ sistem.php?menu=vfsalesd&keycode=$1 [L]
+    RewriteRule ^rpenjualand$ sistem.php?menu=rpenjualand [L]
+    RewriteRule ^rpenjualand/cari=(.*)$ sistem.php?menu=rpenjualand&cari=$1 [L]
+    RewriteRule ^fsalesp$ sistem.php?menu=fsalesp [L]
+    RewriteRule ^fsalesp/cari=(.*)$ sistem.php?menu=fsalesp&cari=$1 [L]
+    RewriteRule ^fsalesp/i$ sistem.php?menu=ifsalesp [L]
+    RewriteRule ^itemsalesp/(.*)$ sistem.php?menu=itemsalesp&keycode=$1 [L]
+    RewriteRule ^fsalesp/e/(.*)$ sistem.php?menu=efsalesp&keycode=$1 [L]
+    RewriteRule ^fsalesp/v/(.*)$ sistem.php?menu=vfsalesp&keycode=$1 [L]
+    RewriteRule ^fsalesr$ sistem.php?menu=fsalesr [L]
+    RewriteRule ^fsalesr/cari=(.*)$ sistem.php?menu=fsalesr&cari=$1 [L]
+    RewriteRule ^fsalesr/i$ sistem.php?menu=ifsalesr [L]
+    RewriteRule ^itemsalesr/(.*)$ sistem.php?menu=itemsalesr&keycode=$1 [L]
+    RewriteRule ^fsalesr/e/(.*)$ sistem.php?menu=efsalesr&keycode=$1 [L]
+    RewriteRule ^fsalesr/v/(.*)$ sistem.php?menu=vfsalesr&keycode=$1 [L]
+    RewriteRule ^fsalesl$ sistem.php?menu=fsalesl [L]
+    RewriteRule ^fsalesl/cari=(.*)$ sistem.php?menu=fsalesl&cari=$1 [L]
+    RewriteRule ^fsalesl/i$ sistem.php?menu=ifsalesl [L]
+    RewriteRule ^itemsalesl/(.*)$ sistem.php?menu=itemsalesl&keycode=$1 [L]
+    RewriteRule ^fsalesl/e/(.*)$ sistem.php?menu=efsalesl&keycode=$1 [L]
+    RewriteRule ^fsalesl/v/(.*)$ sistem.php?menu=vfsalesl&keycode=$1 [L]
+    RewriteRule ^rpenjualanp$ sistem.php?menu=rpenjualanp [L]
+    RewriteRule ^rpenjualanp/cari=(.*)$ sistem.php?menu=rpenjualanp&cari=$1 [L]
+    RewriteRule ^rpenjualanr$ sistem.php?menu=rpenjualanr [L]
+    RewriteRule ^rpenjualanr/cari=(.*)$ sistem.php?menu=rpenjualanr&cari=$1 [L]
+    RewriteRule ^rpenjualanl$ sistem.php?menu=rpenjualanl [L]
+    RewriteRule ^rpenjualanl/cari=(.*)$ sistem.php?menu=rpenjualanl&cari=$1 [L]
+    RewriteRule ^rpenjualanc$ sistem.php?menu=rpenjualanc [L]
+    RewriteRule ^rpenjualanc/cari=(.*)$ sistem.php?menu=rpenjualanc&cari=$1 [L]
+    RewriteRule ^fsalespe$ sistem.php?menu=fsalespe [L]
+    RewriteRule ^pengiriman$ sistem.php?menu=pengiriman [L]
+    RewriteRule ^fpengiriman$ sistem.php?menu=fpengiriman [L]
+    RewriteRule ^rpengiriman$ sistem.php?menu=rpengiriman [L]
+    RewriteRule ^rpengiriman/cari=(.*)$ sistem.php?menu=rpengiriman&cari=$1 [L]
+    RewriteRule ^rfpengiriman$ sistem.php?menu=rfpengiriman [L]
+    RewriteRule ^rfpengiriman/cari=(.*)$ sistem.php?menu=rfpengiriman&cari=$1 [L]
+    RewriteRule ^outletbaru$ sistem.php?menu=outletbaru [L]
+    RewriteRule ^outletbaru/i$ sistem.php?menu=ioutletbaru [L]
+    RewriteRule ^outletbaru/v/(.*)$ sistem.php?menu=voutletbaru&keycode=$1 [L]
+    RewriteRule ^outletbaru/e/(.*)$ sistem.php?menu=eoutletbaru&keycode=$1 [L]
+    
+     RewriteRule ^stockopname$ sistem.php?menu=stockopname [L]
+    RewriteRule ^stockopname/i$ sistem.php?menu=istockopname [L]
+    RewriteRule ^stockopname/v$ sistem.php?menu=vstockopname [L]
+    RewriteRule ^stockopname/v/(.*)$ sistem.php?menu=vstockopname&keycode=$1 [L]
+    RewriteRule ^stockopname/e/(.*)$ sistem.php?menu=estockopname&keycode=$1 [L]
+    RewriteRule ^stockopnamek$ sistem.php?menu=stockopnamek [L]
+    RewriteRule ^stockopnamek/i$ sistem.php?menu=istockopnamek [L]
+    RewriteRule ^stockopnamek/v/(.*)$ sistem.php?menu=vstockopnamek&keycode=$1 [L]
+    RewriteRule ^stockopnamek/e/(.*)$ sistem.php?menu=estockopnamek&keycode=$1 [L]
+    RewriteRule ^stockopnamer$ sistem.php?menu=stockopnamer [L]
+    RewriteRule ^stockopnamer/i$ sistem.php?menu=istockopnamer [L]
+    RewriteRule ^stockopnamer/v/(.*)$ sistem.php?menu=vstockopnamer&keycode=$1 [L]
+    RewriteRule ^stockopnamer/e/(.*)$ sistem.php?menu=estockopnamer&keycode=$1 [L]
+    RewriteRule ^stockopnamea$ sistem.php?menu=stockopnamea [L]
+    RewriteRule ^stockopnamea/i$ sistem.php?menu=istockopnamea [L]
+    RewriteRule ^stockopnamea/v/(.*)$ sistem.php?menu=vstockopnamea&keycode=$1 [L]
+    RewriteRule ^stockopnamea/e/(.*)$ sistem.php?menu=estockopnamea&keycode=$1 [L]
+    RewriteRule ^stockopnameap$ sistem.php?menu=stockopnameap [L]
+    RewriteRule ^stockopnameap/i$ sistem.php?menu=istockopnameap [L]
+    RewriteRule ^stockopnameap/v$ sistem.php?menu=vstockopnameap [L]
+    RewriteRule ^stockopnameap/v/(.*)$ sistem.php?menu=vstockopnameap&keycode=$1 [L]
+    RewriteRule ^stockopnameap/e/(.*)$ sistem.php?menu=estockopnameap&keycode=$1 [L]
+     RewriteRule ^stockopnamein$ sistem.php?menu=stockopnamein [L]
+    RewriteRule ^stockopnamein/i$ sistem.php?menu=istockopnamein [L]
+    RewriteRule ^stockopnamein/v/(.*)$ sistem.php?menu=vstockopnamein&keycode=$1 [L]
+    RewriteRule ^stockopnamein/e/(.*)$ sistem.php?menu=estockopnamein&keycode=$1 [L]
+    RewriteRule ^stockopnameplus$ sistem.php?menu=stockopnameplus [L]
+    RewriteRule ^stockopnamea/i$ sistem.php?menu=istockopnamea [L]
+    
+    php_value max_input_vars 100000
+    
+    RewriteRule ^dokumen$ sistem.php?menu=dokumen [L]
+    RewriteRule ^dokumen/i$ sistem.php?menu=idokumen [L]
+    RewriteRule ^dokumen/v/(.*)$ sistem.php?menu=vdokumen&keycode=$1 [L]
+    RewriteRule ^dokumen/e/(.*)$ sistem.php?menu=edokumen&keycode=$1 [L]
+
+
+    RewriteRule ^fakturpajak$ sistem.php?menu=fakturpajak [L]
+    RewriteRule ^fakturpajak/cari=(.*)$ sistem.php?menu=fakturpajak&cari=$1 [L]
+    RewriteRule ^fakturpajak/i$ sistem.php?menu=ifakturpajak [L]
+    RewriteRule ^fakturpajak/e/(.*)$ sistem.php?menu=efakturpajak&keycode=$1 [L]
+    RewriteRule ^fakturpajak/v/(.*)$ sistem.php?menu=vfakturpajak&keycode=$1 [L]
+    RewriteRule ^rstockopname$ sistem.php?menu=rstockopname [L]
+    RewriteRule ^rstockopname/cari=(.*)$ sistem.php?menu=rstockopname&cari=$1 [L]
+    
+    RewriteRule ^dokumenbalik$ sistem.php?menu=dokumenbalik [L]
+    RewriteRule ^dokumenbalik/cari=(.*)$ sistem.php?menu=dokumenbalik&cari=$1 [L]
+    RewriteRule ^dokumenbalik/i$ sistem.php?menu=idokumenbalik [L]
+
+    RewriteRule ^dokumenfailing$ sistem.php?menu=dokumenfailing [L]
+    RewriteRule ^dokumenfailing/cari=(.*)$ sistem.php?menu=dokumenfailing&cari=$1 [L]
+    RewriteRule ^dokumenfailing/i$ sistem.php?menu=idokumenfailing [L]
+    
+    RewriteRule ^tukerfakturbalik$ sistem.php?menu=tukerfakturbalik [L]
+    RewriteRule ^tukerfakturbalik/cari=(.*)$ sistem.php?menu=tukerfakturbalik&cari=$1 [L]
+    RewriteRule ^tukerfakturbalik/i$ sistem.php?menu=itukerfakturbalik [L]
+    
+    RewriteRule ^marginp$ sistem.php?menu=marginp [L]
+    RewriteRule ^marginp/e/(.*)$ sistem.php?menu=emarginp&keycode=$1 [L]
+    RewriteRule ^kalkulasi$ sistem.php?menu=kalkulasi [L]
+    RewriteRule ^kalkulasi/e/(.*)$ sistem.php?menu=kalkulasi&keycode=$1 [L]
+
+    RewriteRule ^selesaifailing$ sistem.php?menu=selesaifailing [L]
+    RewriteRule ^selesaifailing/cari=(.*)$ sistem.php?menu=selesaifailing&cari=$1 [L]
+    RewriteRule ^selesaifailing/i$ sistem.php?menu=iselesaifailing [L]
+    
+    RewriteRule ^selesaifakturpajak$ sistem.php?menu=selesaifakturpajak [L]
+    RewriteRule ^selesaifakturpajak/cari=(.*)$ sistem.php?menu=selesaifakturpajak&cari=$1 [L]
+    RewriteRule ^selesaifakturpajak/i$ sistem.php?menu=iselesaifakturpajak [L]
+    
+    RewriteRule ^selesaipemberkasan$ sistem.php?menu=selesaipemberkasan [L]
+    RewriteRule ^selesaipemberkasan/cari=(.*)$ sistem.php?menu=selesaipemberkasan&cari=$1 [L]
+    RewriteRule ^selesaipemberkasan/i$ sistem.php?menu=iselesaipemberkasan [L]
+    
+    RewriteRule ^alurdokumen$ sistem.php?menu=alurdokumen [L]
+    RewriteRule ^alurdokumen/cari=(.*)$ sistem.php?menu=alurdokumen&cari=$1 [L]
+
+    RewriteRule ^alurdokumen/v/(.*)$ sistem.php?menu=valurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/b/(.*)$ sistem.php?menu=balurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/fs/(.*)$ sistem.php?menu=fsalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/fb/(.*)$ sistem.php?menu=fbalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/ps/(.*)$ sistem.php?menu=psalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/pb/(.*)$ sistem.php?menu=pbalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/us/(.*)$ sistem.php?menu=usalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/ub/(.*)$ sistem.php?menu=ubalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/ts/(.*)$ sistem.php?menu=tsalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/tb/(.*)$ sistem.php?menu=tbalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/tfs/(.*)$ sistem.php?menu=tfsalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/tfb/(.*)$ sistem.php?menu=tfbalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/sp/(.*)$ sistem.php?menu=spalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/stp/(.*)$ sistem.php?menu=stpalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/bp/(.*)$ sistem.php?menu=bpalurdokumen&keycode=$1 [L]
+    RewriteRule ^alurdokumen/blt/(.*)$ sistem.php?menu=bltalurdokumen&keycode=$1 [L]
+
+    RewriteRule ^uploadpajak$ sistem.php?menu=uploadpajak [L]
+    RewriteRule ^uploadpajak/cari=(.*)$ sistem.php?menu=uploadpajak&cari=$1 [L]
+    RewriteRule ^uploadpajak/i$ sistem.php?menu=iuploadpajak [L]
+
+    RewriteRule ^alurtukerfaktur$ sistem.php?menu=alurtukerfaktur [L]
+    RewriteRule ^home_finance$ sistem.php?menu=home_finance [L]
+    
+    RewriteRule ^finance$ sistem.php?menu=finance [L]
+    RewriteRule ^finance/cari=(.*)$ sistem.php?menu=finance&cari=$1 [L]
+    RewriteRule ^finance/i$ sistem.php?menu=ifinance [L]
+    
+    
+    RewriteRule ^fpenggantianbarang$ sistem.php?menu=fpenggantianbarang [L]
+    RewriteRule ^fpenggantianbarang/cari=(.*)$ sistem.php?menu=fpenggantianbarang&cari=$1 [L]
+    RewriteRule ^fpenggantianbarang/i$ sistem.php?menu=ifpenggantianbarang [L]
+    RewriteRule ^itemfpenggantianbarang/(.*)$ sistem.php?menu=itemfpenggantianbarang&keycode=$1 [L]
+    RewriteRule ^fpenggantianbarang/e/(.*)$ sistem.php?menu=efpenggantianbarang&keycode=$1 [L]
+    RewriteRule ^fpenggantianbarang/v/(.*)$ sistem.php?menu=vfpenggantianbarang&keycode=$1 [L]
+    RewriteRule ^rpenggantianbarang$ sistem.php?menu=rpenggantianbarang [L]
+    RewriteRule ^rpenggantianbarang/cari=(.*)$ sistem.php?menu=rpenggantianbarang&cari=$1 [L]
+    
+    RewriteRule ^masterprinciple$ sistem.php?menu=masterprinciple [L]
+    RewriteRule ^masterprinciple/cari=(.*)$ sistem.php?menu=masterprinciple&cari=$1 [L]
+    RewriteRule ^masterrekening/o$ sistem.php?menu=omasterrekening [L]
+    
+    RewriteRule ^programpromo$ sistem.php?menu=programpromo [L]
+    RewriteRule ^programpromo/cari=(.*)$ sistem.php?menu=programpromo&cari=$1 [L]
+    
+    RewriteRule ^fsalesk$ sistem.php?menu=fsalesk [L]
+    RewriteRule ^fsalesk/cari=(.*)$ sistem.php?menu=fsalesk&cari=$1 [L]
+    RewriteRule ^fsalesk/i$ sistem.php?menu=ifsalesk [L]
+    RewriteRule ^itemsalesk/(.*)$ sistem.php?menu=itemsalesk&keycode=$1 [L]
+    RewriteRule ^fsalesk/e/(.*)$ sistem.php?menu=efsalesk&keycode=$1 [L]
+    RewriteRule ^fsalesk/v/(.*)$ sistem.php?menu=vfsalesk&keycode=$1 [L]
+    RewriteRule ^rsalesk$ sistem.php?menu=rsalesk [L]
+    RewriteRule ^rsalesk/cari=(.*)$ sistem.php?menu=rsalesk&cari=$1 [L]
+
+    RewriteRule ^stokkonsinyasi$ sistem.php?menu=stokkonsinyasi [L,QSA]
+    RewriteRule ^stokkonsinyasi/cari=(.*)$ sistem.php?menu=stokkonsinyasi&cari=$1 [L]
+    RewriteRule ^historisproduk$ sistem.php?menu=historisproduk [L]
+    
+    RewriteRule ^returkonsinyasi$ sistem.php?menu=returkonsinyasi [L]
+    RewriteRule ^returkonsinyasi/cari=(.*)$ sistem.php?menu=returkonsinyasi&cari=$1 [L]
+    RewriteRule ^returkonsinyasi/i/(.*)$ sistem.php?menu=ireturkonsinyasi&keycode=$1 [L]
+
+    RewriteRule ^inventorydpe$ sistem.php?menu=inventorydpe [L]
+    RewriteRule ^inventorydpe/cari=(.*)$ sistem.php?menu=inventorydpe&cari=$1 [L]
+    
+    RewriteRule ^inventorypim$ sistem.php?menu=inventorypim [L]
+    RewriteRule ^inventorypim/cari=(.*)$ sistem.php?menu=inventorypim&cari=$1 [L]
+    
+    RewriteRule ^siaptf$ sistem.php?menu=siaptf [L]
+    RewriteRule ^siaptf/cari=(.*)$ sistem.php?menu=siaptf&cari=$1 [L]
+    RewriteRule ^siaptf/i$ sistem.php?menu=isiaptf [L]
+    
+    RewriteRule ^kategoripj$ sistem.php?menu=kategoripj [L]
+    RewriteRule ^kategoripj/cari=(.*)$ sistem.php?menu=kategoripj&cari=$1 [L]
+
+     RewriteRule ^fpengiriman$ sistem.php?menu=fpengiriman [L]
+    RewriteRule ^fpengiriman/i$ sistem.php?menu=ifpengiriman [L]
+    
+    RewriteRule ^masterpengiriman$ sistem.php?menu=masterpengiriman [L]
+    RewriteRule ^masterpengiriman/cari=(.*)$ sistem.php?menu=masterpengiriman&cari=$1 [L]
+    
+    RewriteRule ^masterrekening$ sistem.php?menu=masterrekening [L]
+    RewriteRule ^masterrekening/cari=(.*)$ sistem.php?menu=masterrekening&cari=$1 [L]
+    
+    RewriteRule ^vendorpengiriman$ sistem.php?menu=vendorpengiriman [L]
+    RewriteRule ^vendorpengiriman/cari=(.*)$ sistem.php?menu=vendorpengiriman&cari=$1 [L]
+    
+    RewriteRule ^pengirimanlk$ sistem.php?menu=pengirimanlk [L]
+    RewriteRule ^pengirimanlk/i$ sistem.php?menu=ipengirimanlk [L]
+    RewriteRule ^pengirimanlk/cari=(.*)$ sistem.php?menu=pengirimanlk&cari=$1 [L]
+    
+    RewriteRule ^inventorygabungan$ sistem.php?menu=inventorygabungan [L]
+    RewriteRule ^inventorygabungan/cari=(.*)$ sistem.php?menu=inventorygabungan&cari=$1 [L]
+    
+    RewriteRule ^fsalespim$ sistem.php?menu=fsalespim [L]
+    RewriteRule ^fsalespim/cari=(.*)$ sistem.php?menu=fsalespim&cari=$1 [L]
+    RewriteRule ^fsalespim/i$ sistem.php?menu=ifsalespim [L]
+    RewriteRule ^itemsalespim/(.*)$ sistem.php?menu=itemsalespim&keycode=$1 [L]
+    RewriteRule ^fsalespim/e/(.*)$ sistem.php?menu=efsalespim&keycode=$1 [L]
+    RewriteRule ^fsalespim/v/(.*)$ sistem.php?menu=vfsalespim&keycode=$1 [L]
+    RewriteRule ^rsalespim$ sistem.php?menu=rsalespim [L]
+    RewriteRule ^rsalespim/cari=(.*)$ sistem.php?menu=rsalespim&cari=$1 [L]
+    
+    RewriteRule ^rpenjualanpim$ sistem.php?menu=rpenjualanpim [L]
+    RewriteRule ^rpenjualanpim/cari=(.*)$ sistem.php?menu=rpenjualanpim&cari=$1 [L]
+    RewriteRule ^rspenjualan$ sistem.php?menu=rspenjualan [L]
+    
+    RewriteRule ^stockopnamedpe$ sistem.php?menu=stockopnamedpe [L]
+    RewriteRule ^stockopnamedpe/i$ sistem.php?menu=istockopnamedpe [L]
+    
+    RewriteRule ^stockopnamepim$ sistem.php?menu=stockopnamepim [L]
+    RewriteRule ^stockopnamepim/i$ sistem.php?menu=istockopnamepim [L]
+    
+    
+    RewriteRule ^retur$ sistem.php?menu=retur [L]
+    RewriteRule ^retur/cari=(.*)$ sistem.php?menu=retur&cari=$1 [L]
+    RewriteRule ^retur/i$ sistem.php?menu=iretur [L]
+    RewriteRule ^retur/v/(.*)$ sistem.php?menu=vretur&keycode=$1 [L]
+    
+    RewriteRule ^inventoryretur$ sistem.php?menu=inventoryretur [L]
+    RewriteRule ^inventoryretur/cari=(.*)$ sistem.php?menu=inventoryretur&cari=$1 [L]
+    
+    RewriteRule ^produkdpe$ sistem.php?menu=produkdpe [L]
+    RewriteRule ^produkdpe/cari=(.*)$ sistem.php?menu=produkdpe&cari=$1 [L]
+    RewriteRule ^hprodukdpe/(.*)$ sistem.php?menu=hprodukdpe&keycode=$1 [L]
+    RewriteRule ^produkdpe/v/(.*)$ sistem.php?menu=vprodukdpe&keycode=$1 [L]
+    
+    RewriteRule ^produkpim$ sistem.php?menu=produkpim [L]
+    RewriteRule ^produkpim/cari=(.*)$ sistem.php?menu=produkpim&cari=$1 [L]
+    RewriteRule ^hprodukpim/(.*)$ sistem.php?menu=hprodukpim&keycode=$1 [L]
+    RewriteRule ^produkpim/v/(.*)$ sistem.php?menu=vprodukpim&keycode=$1 [L]
+    
+    RewriteRule ^rorderpim$ sistem.php?menu=rorderpim [L]
+    RewriteRule ^rorderpim/cari=(.*)$ sistem.php?menu=rorderpim&cari=$1 [L]
+    RewriteRule ^rorderpim/i$ sistem.php?menu=irorderpim [L]
+    RewriteRule ^rorderpim/e/(.*)$ sistem.php?menu=erorderpim&keycode=$1 [L]
+    RewriteRule ^rorderpim/v/(.*)$ sistem.php?menu=vrorderpim&keycode=$1 [L]
+    
+    RewriteRule ^rorderdpe$ sistem.php?menu=rorderdpe [L]
+    RewriteRule ^rorderdpe/cari=(.*)$ sistem.php?menu=rorderdpe&cari=$1 [L]
+    RewriteRule ^rorderdpe/i$ sistem.php?menu=irorderdpe [L]
+    RewriteRule ^rorderdpe/e/(.*)$ sistem.php?menu=erorderdpe&keycode=$1 [L]
+    RewriteRule ^rorderdpe/v/(.*)$ sistem.php?menu=vrorderdpe&keycode=$1 [L]
+    
+    RewriteRule ^gpembeliandpe$ sistem.php?menu=gpembeliandpe [L]
+    RewriteRule ^gpembeliandpe/cari=(.*)$ sistem.php?menu=gpembeliandpe&cari=$1 [L]
+    RewriteRule ^gpembelianpim$ sistem.php?menu=gpembelianpim [L]
+    RewriteRule ^gpembelianpim/cari=(.*)$ sistem.php?menu=gpembelianpim&cari=$1 [L]
+    
+    RewriteRule ^master_grup$ sistem.php?menu=master_grup [L]
+    RewriteRule ^master_grup/cari=(.*)$ sistem.php?menu=master_grup&cari=$1 [L]
+    
+    RewriteRule ^outlet/h/(.*)$ sistem.php?menu=hpimoutlet&keycode=$1 [L]
+    RewriteRule ^outlet/i/(.*)$ sistem.php?menu=ipoutlet&keycode=$1 [L]
+    
+    RewriteRule ^grafikproduk$ sistem.php?menu=grafikproduk [L]
+    
+    RewriteRule ^monitoringfp$ sistem.php?menu=monitoringfp [L]
+    RewriteRule ^monitoringfi$ sistem.php?menu=monitoringfi [L]
+
+    RewriteRule ^fsalesb$ sistem.php?menu=fsalesb [L]
+    RewriteRule ^fsalesb/cari=(.*)$ sistem.php?menu=fsalesb&cari=$1 [L]
+    RewriteRule ^fsalesb/i$ sistem.php?menu=ifsalesb [L]
+    RewriteRule ^itemsalesb/(.*)$ sistem.php?menu=itemsalesb&keycode=$1 [L]
+    RewriteRule ^fsalesb/e/(.*)$ sistem.php?menu=efsalesb&keycode=$1 [L]
+    RewriteRule ^fsalesb/v/(.*)$ sistem.php?menu=vfsalesb&keycode=$1 [L]
+    
+     RewriteRule ^transferretur$ sistem.php?menu=transferretur [L]
+    RewriteRule ^transferretur/cari=(.*)$ sistem.php?menu=transferretur&cari=$1 [L] 
+    RewriteRule ^transferretur/i$ sistem.php?menu=itransferretur [L]
+    RewriteRule ^transferretur/e/(.*)$ sistem.php?menu=etransferretur&keycode=$1 [L]
+    RewriteRule ^transferretur/v/(.*)$ sistem.php?menu=vtransferretur&keycode=$1 [L]
+    RewriteRule ^rtransferretur$ sistem.php?menu=rtransferretur [L]
+    RewriteRule ^rtransferretur/cari=(.*)$ sistem.php?menu=rtransferretur&cari=$1 [L]
+    RewriteRule ^produk/g/(.*)$ sistem.php?menu=gproduk&keycode=$1 [L]
+    
+     RewriteRule ^faktur_retur$ sistem.php?menu=faktur_retur [L]
+    RewriteRule ^faktur_retur/cari=(.*)$ sistem.php?menu=faktur_retur&cari=$1 [L]
+    RewriteRule ^faktur_retur/i$ sistem.php?menu=ifaktur_retur [L]
+    RewriteRule ^faktur_retur/e/(.*)$ sistem.php?menu=efaktur_retur&keycode=$1 [L]
+    RewriteRule ^faktur_retur/v/(.*)$ sistem.php?menu=vfaktur_retur&keycode=$1 [L]
+    RewriteRule ^itemretur/(.*)$ sistem.php?menu=itemretur&keycode=$1 [L]
+    
+    RewriteRule ^gudangproduktransfer$ sistem.php?menu=gudangproduktransfer [L]
+    RewriteRule ^gudangproduktransfer/cari=(.*)$ sistem.php?menu=gudangproduktransfer&cari=$1 [L] 
+    RewriteRule ^gudangproduktransfer/i$ sistem.php?menu=igudangproduktransfer [L]
+    RewriteRule ^gudangproduktransfer/e/(.*)$ sistem.php?menu=egudangproduktransfer&keycode=$1 [L]
+    RewriteRule ^gudangproduktransfer/v/(.*)$ sistem.php?menu=vgudangproduktransfer&keycode=$1 [L]
+    RewriteRule ^rgudangproduktransfer$ sistem.php?menu=rgudangproduktransfer [L]
+    RewriteRule ^rgudangproduktransfer/cari=(.*)$ sistem.php?menu=rgudangproduktransfer&cari=$1 [L]
+    RewriteRule ^produk/g/(.*)$ sistem.php?menu=gproduk&keycode=$1 [L]
+    RewriteRule ^gudangproduktransfer/history/([0-9]+)/?$ sistem.php?menu=gudangproduktransfer&submenu=history&id=$1 [L]
+    
+    RewriteRule ^fsalespim2$ sistem.php?menu=fsalespim2 [L]
+    RewriteRule ^fsalespim2/cari=(.*)$ sistem.php?menu=fsalespim2&cari=$1 [L]
+    RewriteRule ^fsalespim2/i$ sistem.php?menu=ifsalespim2 [L]
+    RewriteRule ^itemsalespim2/(.*)$ sistem.php?menu=itemsalespim2&keycode=$1 [L]
+    RewriteRule ^fsalespim2/e/(.*)$ sistem.php?menu=efsalespim2&keycode=$1 [L]
+    RewriteRule ^fsalespim2/v/(.*)$ sistem.php?menu=vfsalespim2&keycode=$1 [L]
+
+    RewriteRule ^rpenjualandpe$ sistem.php?menu=rpenjualandpe [L]
+    RewriteRule ^rpenjualandpe/cari=(.*)$ sistem.php?menu=rpenjualandpe&cari=$1 [L]
+    
+      
+    RewriteRule ^fsales/items/(.*)$ sistem.php?menu=edititems&keycode=$1 [L]
+    RewriteRule ^backup-fsales$ sistem.php?menu=backup-fsales [L]
+    RewriteRule ^backup-fsales/cari=(.*)$ sistem.php?menu=backup-fsales&cari=$1 [L]
+    
+    RewriteRule ^monitoringop_pending$ sistem.php?menu=monitoringop_pending [L]
+    RewriteRule ^outlet/diskonprinciple/(.*)$ sistem.php?menu=diskonprinciple&keycode=$1 [L]
+    
+    RewriteRule ^inventoryrhea$ sistem.php?menu=inventoryrhea [L]
+    RewriteRule ^inventoryrhea/cari=(.*)$ sistem.php?menu=inventoryrhea&cari=$1 [L]
+    
+    RewriteRule ^fsalespim/items/(.*)$ sistem.php?menu=edititempim&keycode=$1 [L]
+    RewriteRule ^fsalespim2/items/(.*)$ sistem.php?menu=edititempim2&keycode=$1 [L]
+    
+    RewriteRule ^flimit$ sistem.php?menu=flimit [L]
+    RewriteRule ^flimit/cari=(.*)$ sistem.php?menu=flimit&cari=$1 [L]
+    
+    RewriteRule ^stockcancel$ sistem.php?menu=stockcancel [L]
+    RewriteRule ^stockcancel/cari=(.*)$ sistem.php?menu=stockcancel&cari=$1 [L]
+
+    RewriteRule ^transferstockcancel$ sistem.php?menu=transferstockcancel [L]
+    RewriteRule ^transferstockcancel/add$ sistem.php?menu=transferstockcancel_add [L]
+    RewriteRule ^transferstockcancel/cari=(.*)$ sistem.php?menu=transferstockcancel&cari=$1 [L]
+    
+    RewriteRule ^transferfakturstok$ sistem.php?menu=transferfakturstok [L]
+    RewriteRule ^transferfakturstok/add$ sistem.php?menu=transferfakturstok_add [L]
+    RewriteRule ^transferfakturstok/cari=(.*)$ sistem.php?menu=transferfakturstok&cari=$1 [L]
+    
+    RewriteRule ^inventoryrudo$ sistem.php?menu=inventoryrudo [L]
+    RewriteRule ^inventoryrudo/cari=(.*)$ sistem.php?menu=inventoryrudo&cari=$1 [L]
+    
+    RewriteRule ^outlet/legal/(.*)$ sistem.php?menu=legaloutlet&keycode=$1 [L]
+    
+      RewriteRule ^rdokumenbalik$ sistem.php?menu=rdokumenbalik [L]
+    RewriteRule ^rdokumenfailing$ sistem.php?menu=rdokumenfailing [L]
+    
+        RewriteRule ^rdokumenbalik/cari=(.*)$ sistem.php?menu=rdokumenbalik&cari=$1 [L]
+    RewriteRule ^rdokumenfailing/cari=(.*)$ sistem.php?menu=rdokumenfailing&cari=$1 [L]
+
+    RewriteRule ^masterprogramproduk$ sistem.php?menu=masterprogramproduk [L]
+    RewriteRule ^masterprogramproduk/i$ sistem.php?menu=imasterprogramproduk [L]
+    RewriteRule ^masterprogramproduk/e/([0-9]+)$ sistem.php?menu=emasterprogramproduk&keycode=$1 [L]
+    RewriteRule ^masterprogramproduk/cari=(.*)$ sistem.php?menu=masterprogramproduk&cari=$1 [L]
+    
+    RewriteRule ^master_program_produk$ sistem.php?menu=master_program_produk [L]
+    RewriteRule ^master_program_produk/i$ sistem.php?menu=imaster_program_produk [L]
+    RewriteRule ^master_program_produk/e/([0-9]+)$ sistem.php?menu=emaster_program_produk&keycode=$1 [L]
+    RewriteRule ^master_program_produk/cari=(.*)$ sistem.php?menu=master_program_produk&cari=$1 [L]
+    
+	ErrorDocument 404 https://imsduafarma.link/192.268.908.09/error.php
+	RewriteCond %{QUERY_STRING} .
+	RewriteRule ^$ /? [R,L]
+    Options All -Indexes
+</IfModule>

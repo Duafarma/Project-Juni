@@ -1,0 +1,16 @@
+[24-Feb-2022 09:46:09 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.jumlah_ttd,
+								b.status_ttr 
+							FROM
+								transaksi_transfers...' at line 11 in /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php:91
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php(91): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php on line 91
+[24-Feb-2022 09:46:10 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.jumlah_ttd,
+								b.status_ttr 
+							FROM
+								transaksi_transfers...' at line 11 in /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php:91
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php(91): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/laporan/xls/rtransferstok/rtransferstok.php on line 91

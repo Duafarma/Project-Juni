@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Button</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h3>Button Test</h3>
+<button onclick="alert('Button works!')">Test Button</button>
+
+<div id="test-buttons">
+    <button class="test-btn" data-value="test1">Test 1</button>
+    <button class="test-btn" data-value="test2">Test 2</button>
+    <button class="test-btn" data-value="test3">Test 3</button>
+</div>
+
+<script>
+console.log('Page loaded');
+
+// Test direct onclick
+function testClick() {
+    alert('Direct function works!');
+}
+
+// Test jQuery event delegation
+$(document).on('click', '.test-btn', function() {
+    alert('jQuery delegation works! Value: ' + $(this).data('value'));
+});
+
+// Test jQuery ready
+$(document).ready(function() {
+    console.log('jQuery ready');
+});
+</script>
+
+<br><br>
+<button onclick="testClick()">Test Direct Function</button>
+
+</body>
+</html>

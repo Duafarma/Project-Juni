@@ -1,0 +1,10 @@
+[18-Apr-2022 11:21:34 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.akses_rmu' in 'field list' in /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php:34
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php on line 34
+[18-Apr-2022 11:21:38 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.akses_rmu' in 'field list' in /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php:34
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.09/json/rolemenu/rolemenu.php on line 34

@@ -1,0 +1,30 @@
+
+2025-08-14 06:45:26 ===== NEW REQUEST =====
+Method: POST
+Content-Type: application/json
+Raw POST: []
+Raw Input: {"tgl":"2025-08-14","encrypt":"354dbb566676f3a1ccf42d2d331fe11f","id_apl":"APL01","id_out":"OUT1680491502","nama_adm":"dumy","keterangan":"","faktur_ids":[{"id":"FAK1744862236","source":"transaksi_faktur"}]}
+2025-08-14 06:45:26 - JSON decoded: {"tgl":"2025-08-14","encrypt":"354dbb566676f3a1ccf42d2d331fe11f","id_apl":"APL01","id_out":"OUT1680491502","nama_adm":"dumy","keterangan":"","faktur_ids":[{"id":"FAK1744862236","source":"transaksi_faktur"}]}
+2025-08-14 13:45:26 - Parameters received:
+tgl: 2025-08-14
+encrypt: 354dbb566676f3a1ccf42d2d331fe11f
+id_apl: APL01
+id_out: OUT1680491502
+nama_adm: dumy
+keterangan: 
+faktur_ids: [{"id":"FAK1744862236","source":"transaksi_faktur"}]
+2025-08-14 13:45:26 - Database connection opened
+2025-08-14 13:45:26 - Application found: {"key_apl":"YbcJSFjkdsfb","base_url_apl":"https:\/\/imsduafarma.link\/192.268.908.09","nama_apl":"Puri"}
+2025-08-14 13:45:26 - Encrypt validation:
+Expected: 354dbb566676f3a1ccf42d2d331fe11f
+Received: 354dbb566676f3a1ccf42d2d331fe11f
+Match: YES
+2025-08-14 13:45:26 - Outlet check for id_out 'OUT1680491502': EXISTS
+2025-08-14 13:45:26 - Searching for admin with nama_adm: 'dumy'
+2025-08-14 13:45:26 - Admin found: id_adm = ADM1684049211
+2025-08-14 13:45:26 - Transaction started
+2025-08-14 13:45:26 - Processing 1 fakturs
+2025-08-14 13:45:26 - Processing faktur #1: FAK1744862236 from transaksi_faktur
+2025-08-14 13:45:26 - SKIPPED: FAK1744862236 - Faktur sudah pernah diproses sebelumnya
+2025-08-14 13:45:26 - RESULT: All failed - rolled back
+2025-08-14 13:45:26 - Final response: {"status":"error","message":"Semua pengiriman gagal disimpan","nama_apl":"Puri","base_url_apl":"https:\/\/imsduafarma.link\/192.268.908.09","id_apl":"APL01","date_processed":"2025-08-14","total_submitted":1,"total_success":0,"total_failed":1,"success_items":[],"failed_items":[{"id_tfk":"FAK1744862236","reason":"Faktur sudah pernah diproses sebelumnya"}],"nama_adm_filter":"dumy","id_adm_local":"ADM1684049211"}

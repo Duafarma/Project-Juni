@@ -1,0 +1,56 @@
+<?php
+	require_once('../../config/connection/connection.php');
+	require_once('../../config/connection/security.php');
+	require_once('../../config/function/data.php');
+	require_once('../../config/function/paging.php');
+	$base	= new DB;
+	$secu	= new Security;
+	$data	= new Data;
+	$paging	= new Paging;
+	$conn	= $base->open();
+	//ACCESS DATA
+	$admin	= $secu->injection(@$_COOKIE['adminkuy']);
+	$kunci	= $secu->injection(@$_COOKIE['kuncikuy']);
+	$level	= $secu->injection(@$_COOKIE['jeniskuy']);
+	$valid	= $secu->validadmin($admin, $kunci);
+	//POST DATA
+	$cari	= $secu->injection(@$_GET['caridata']);
+	$page	= $secu->injection(@$_GET['halaman']);
+	$maxi	= $secu->injection(@$_GET['maximal']);
+	$menu	= $secu->injection(@$_GET['menudata']);
+	$mulai	= ($page>1) ? (($page * $maxi) - $maxi) : 0;
+	//READ DATA
+	if($valid==false){
+		$tabel	= '<tr><td colspan="3">Session login anda habis...</td></tr>';
+		$navi	= '';
+	} else {
+		$tabel	= '';
+		$no		= $mulai;
+		$submenu= '';
+		$jumlah	= $conn->query("SELECT COUNT(A.id_rmu) AS total FROM role_menu AS A LEFT JOIN adminz AS B ON A.id_adm=B.id_adm WHERE B.nama_adm LIKE '%$cari%'")->fetch(PDO::FETCH_ASSOC);
+		$master	= $conn->prepare("SELECT A.id_rmu, A.akses_rmu, B.nama_adm FROM role_menu AS A LEFT JOIN adminz AS B ON A.id_adm=B.id_adm WHERE B.nama_adm LIKE '%$cari%' ORDER BY B.nama_adm ASC LIMIT :mulai, :maxi");
+		$master->bindParam(':mulai', $mulai, PDO::PARAM_INT);
+		$master->bindParam(':maxi', $maxi, PDO::PARAM_INT);
+		$master->execute();
+		while($hasil= $master->fetch(PDO::FETCH_ASSOC)){
+			$no++;
+			$role	= str_replace(",", "', '", $hasil['akses_rmu']);
+			$rsume	= $conn->prepare("SELECT nama_smu FROM sub_menu WHERE id_smu IN('$role') ORDER BY urutan_smu ASC");
+			$rsume->execute();
+			while($vsume= $rsume->fetch(PDO::FETCH_ASSOC)){
+				$submenu.= "$vsume[nama_smu], ";
+			}
+			$edit	= '<a href="#modal1" onclick="crud(\'rolemenu\', \'update\', \''.$hasil['id_rmu'].'\')" data-toggle="modal"><span class="badge badge-info"><i class="fa fa-edit"></i></span></a>';
+			$delete	= ' <a href="#modal1" onclick="crud(\'rolemenu\', \'delete\', \''.$hasil['id_rmu'].'\')" data-toggle="modal"><span class="badge badge-danger"><i class="fa fa-trash"></i></span></a>';
+			$tabel	.= '<tr><td><center>'.$no.'</center></td><td>'.$hasil['nama_adm'].'</td><td>'.substr($submenu, 0, -2).'</td><td><center>'.$edit.$delete.'</center></td></tr>';
+		}
+		$navi	= $paging->myPaging($menu, $jumlah['total'], $maxi, $page); 
+	}
+	$conn	= $base->close();
+	$json	= array("tabel" => $tabel, "halaman" => $page, "paginasi" => $navi);
+	http_response_code(200);
+	header('Access-Control-Allow-Origin: *');
+	header("Content-type: application/json; charset=utf-8");
+	//header('Content-type: text/html; charset=UTF-8');
+	echo(json_encode($json));
+?>

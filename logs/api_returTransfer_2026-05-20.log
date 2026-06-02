@@ -1,0 +1,11 @@
+2026-05-20 07:54:48 - REQUEST: {"nmenu":"transferretur","nact":"input","kode":"TRF\/004\/RET\/DNP\/V\/2026","transfer_apl_type":"OUT","tanggal":"2026-05-20","transfer_apl_from":"APL07","transfer_apl_to":"APL01","keterangan":"","product":["PRO00188"],"kodestok":["12"],"bcode":["3GS60404"],"idpsd":["12"],"namaproduct":["GLOPAC PLUS MD"],"id_trd":["12"],"tgl_expired":["2026-04-01"],"tgl_psd":["2026-05-18"],"gudang":["Denpasar"],"harga":["236.600"],"jumlah":["23"],"cartaddProductReturTransfer":"12","countaddProductReturTransfer":"1","id":"TRR1779238487"} ACT: input
+2026-05-20 07:54:48 - REQUEST DETAILS:
+2026-05-20 07:54:48 - ID: TRR1779238487
+2026-05-20 07:54:48 - KODE: TRF/004/RET/DNP/V/2026
+2026-05-20 07:54:48 - ENCRYPT: b3ac9a9e24dfc429c320c080e5ef36e2
+2026-05-20 07:54:48 - ACT: input
+2026-05-20 07:54:48 - POST DATA: {"nmenu":"transferretur","nact":"input","kode":"TRF\/004\/RET\/DNP\/V\/2026","transfer_apl_type":"OUT","tanggal":"2026-05-20","transfer_apl_from":"APL07","transfer_apl_to":"APL01","keterangan":"","product":["PRO00188"],"kodestok":["12"],"bcode":["3GS60404"],"idpsd":["12"],"namaproduct":["GLOPAC PLUS MD"],"id_trd":["12"],"tgl_expired":["2026-04-01"],"tgl_psd":["2026-05-18"],"gudang":["Denpasar"],"harga":["236.600"],"jumlah":["23"],"cartaddProductReturTransfer":"12","countaddProductReturTransfer":"1","id":"TRR1779238487"}
+2026-05-20 07:54:48 - Using provided external code: TRF/004/RET/DNP/V/2026
+2026-05-20 07:54:48 - RESULT: Success
+2026-05-20 07:54:48 ======== END REQUEST ========
+

@@ -1,0 +1,255 @@
+/* Custom modern styling for Select2 */
+  .select2-container--default .select2-selection--single {
+    height: 42px;
+    border: 1px solid #dce1e8;
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.select2-container--default .select2-selection--single:hover {
+    border-color: #b4c2d3;
+}
+
+.select2-container--default .select2-selection--single:focus,
+.select2-container--default.select2-container--open .select2-selection--single {
+    border-color: #5e72e4;
+    box-shadow: 0 0 0 3px rgba(94, 114, 228, 0.15);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    line-height: 28px;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+    width: 30px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #7c8db5 transparent transparent transparent;
+    border-width: 6px 5px 0 5px;
+    margin-left: -6px;
+    margin-top: -3px;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #5e72e4 transparent;
+    border-width: 0 5px 6px 5px;
+}
+
+.select2-dropdown {
+    border: 1px solid #dce1e8;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.select2-results__option {
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #5e72e4;
+    color: white;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #dce1e8;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    border-color: #5e72e4;
+    outline: none;
+}
+
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Form labels */
+.form-label {
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/* Badge styling */
+.badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+    border-radius: 30px;
+}
+
+/* Loading spinner */
+#loadingMessage {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+/* Chart container */
+.chart-container {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    min-height: 400px;
+}
+
+#dataSourceInfo .badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+    border-radius: 30px;
+    background-color: #5e72e4;
+    color: white;
+    box-shadow: 0 2px 5px rgba(94, 114, 228, 0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Custom spacing */
+.gap-3 {
+    gap: 1rem;
+}
+
+.flag-info {
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaedf0;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.flag-item {
+    margin-right: 15px;
+    position: relative;
+}
+
+.color-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.flag-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: #495057;
+}
+
+@media (max-width: 576px) {
+    .flag-info {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .flag-item {
+        margin-bottom: 8px;
+        margin-right: 10px;
+    }
+}
+
+.info-icon-container {
+    margin-left: 10px;
+}
+
+.info-tooltip {
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    color: #444;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.info-icon-container:hover .info-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.25rem;
+    }
+}
+
+/* ApexCharts bar series styling */
+.apexcharts-bar-series path {
+  stroke: transparent !important;
+}
+
+#transaksiChart .apexcharts-bar-series path {
+  stroke: transparent !important;
+}
+
+/* Paksa tooltip ApexCharts selalu di atas grafik */
+.apexcharts-tooltip {
+    transform: translateY(-100%) !important;
+    top: 20% !important;
+    bottom: auto !important;
+    z-index: 2000;
+    min-width: 220px;
+  }
+  
+  /* Perbesar ukuran header pada tooltip ApexCharts */
+  .apexcharts-tooltip-title {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    padding-bottom: 6px;
+  }
+  

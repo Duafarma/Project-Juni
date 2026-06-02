@@ -1,0 +1,11 @@
+2026-05-07 07:45:24 - REQUEST: {"nmenu":"transferretur","nact":"input","kode":"TRF\/001\/RET\/DNP\/V\/2026","transfer_apl_type":"OUT","tanggal":"2026-05-07","transfer_apl_from":"APL07","transfer_apl_to":"APL01","keterangan":"","product":["PRO00060"],"kodestok":["9"],"bcode":["4G10527"],"idpsd":["9"],"namaproduct":["GENTA 1 % ED"],"id_trd":["9"],"tgl_expired":["2026-05-01"],"tgl_psd":["2026-05-06"],"gudang":["Denpasar"],"harga":["23.250"],"jumlah":["1"],"cartaddProductReturTransfer":"9","countaddProductReturTransfer":"1","id":"TRR1778114723"} ACT: input
+2026-05-07 07:45:24 - REQUEST DETAILS:
+2026-05-07 07:45:24 - ID: TRR1778114723
+2026-05-07 07:45:24 - KODE: TRF/001/RET/DNP/V/2026
+2026-05-07 07:45:24 - ENCRYPT: fc403e98538dbb545ab3e74ced563ece
+2026-05-07 07:45:24 - ACT: input
+2026-05-07 07:45:24 - POST DATA: {"nmenu":"transferretur","nact":"input","kode":"TRF\/001\/RET\/DNP\/V\/2026","transfer_apl_type":"OUT","tanggal":"2026-05-07","transfer_apl_from":"APL07","transfer_apl_to":"APL01","keterangan":"","product":["PRO00060"],"kodestok":["9"],"bcode":["4G10527"],"idpsd":["9"],"namaproduct":["GENTA 1 % ED"],"id_trd":["9"],"tgl_expired":["2026-05-01"],"tgl_psd":["2026-05-06"],"gudang":["Denpasar"],"harga":["23.250"],"jumlah":["1"],"cartaddProductReturTransfer":"9","countaddProductReturTransfer":"1","id":"TRR1778114723"}
+2026-05-07 07:45:24 - Using provided external code: TRF/001/RET/DNP/V/2026
+2026-05-07 07:45:24 - RESULT: Success
+2026-05-07 07:45:24 ======== END REQUEST ========
+

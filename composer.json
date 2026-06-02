@@ -1,0 +1,8 @@
+{
+    "name": "item-system/pembayaran",
+    "description": "Sistem Pembayaran Sales",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "require-dev": {}
+}

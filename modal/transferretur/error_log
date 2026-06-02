@@ -1,0 +1,17 @@
+[07-Mar-2022 14:14:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/imsc3529/public_html/192.268.908.10/config/function/data.php:34
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/modal/transferstok/notification.php(10): Data->sistem('url_sis')
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/config/function/data.php on line 34
+[01-Apr-2022 19:20:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/imsc3529/public_html/192.268.908.10/config/function/data.php:34
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/modal/transferstok/notification.php(10): Data->sistem('url_sis')
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/config/function/data.php on line 34
+[01-Apr-2022 19:20:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/imsc3529/public_html/192.268.908.10/config/function/data.php:34
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/modal/transferstok/notification.php(10): Data->sistem('url_sis')
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/config/function/data.php on line 34
+[05-Jul-2022 16:23:22 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/imsc3529/public_html/192.268.908.09/modal/transferstok/action.php on line 27
+[07-Jul-2022 13:44:11 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/imsc3529/public_html/192.268.908.09/modal/transferstok/action.php on line 27

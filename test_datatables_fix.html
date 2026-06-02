@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test DataTables Fix</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <h2>Test DataTables Initialization Fix</h2>
+    
+    <button onclick="testDataTableFix()">Test DataTable Fix</button>
+    <button onclick="destroyAndRecreate()">Destroy & Recreate</button>
+    
+    <div id="result"></div>
+    
+    <table id="testTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Code</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Product 1</td><td>P001</td><td>100</td></tr>
+            <tr><td>Product 2</td><td>P002</td><td>200</td></tr>
+            <tr><td>Product 3</td><td>P003</td><td>300</td></tr>
+        </tbody>
+    </table>
+    
+    <script>
+    var testTable = null;
+    
+    function testDataTableFix() {
+        $('#result').html('<p>Testing DataTable initialization...</p>');
+        
+        try {
+            // Proper cleanup like in our fix
+            if ($.fn.DataTable.isDataTable('#testTable')) {
+                $('#testTable').DataTable().clear().destroy();
+                $('#testTable').removeClass('dataTable no-footer');
+            }
+            
+            // Initialize
+            testTable = $('#testTable').DataTable({
+                "pageLength": 5,
+                "searching": false,
+                "ordering": true
+            });
+            
+            $('#result').append('<p style="color: green;">✅ DataTable initialized successfully!</p>');
+        } catch(e) {
+            $('#result').append('<p style="color: red;">❌ Error: ' + e.message + '</p>');
+        }
+    }
+    
+    function destroyAndRecreate() {
+        $('#result').html('<p>Testing destroy and recreate...</p>');
+        
+        // First destroy
+        try {
+            if ($.fn.DataTable.isDataTable('#testTable')) {
+                $('#testTable').DataTable().destroy();
+            }
+            $('#result').append('<p>Destroyed existing DataTable</p>');
+        } catch(e) {
+            $('#result').append('<p style="color: orange;">Destroy warning: ' + e.message + '</p>');
+        }
+        
+        // Then recreate
+        setTimeout(function() {
+            try {
+                testTable = $('#testTable').DataTable({
+                    "pageLength": 3,
+                    "searching": true,
+                    "ordering": false
+                });
+                $('#result').append('<p style="color: green;">✅ DataTable recreated successfully!</p>');
+            } catch(e) {
+                $('#result').append('<p style="color: red;">❌ Recreate error: ' + e.message + '</p>');
+            }
+        }, 100);
+    }
+    </script>
+</body>
+</html>

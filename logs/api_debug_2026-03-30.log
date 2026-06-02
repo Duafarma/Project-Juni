@@ -1,0 +1,1768 @@
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pr"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pr
+2026-03-30 11:58:26 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:26 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:26 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:26 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:26 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 11:58:26 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pra"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pra
+2026-03-30 11:58:26 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:26 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:26 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:26 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:26 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 11:58:26 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pram"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pram
+2026-03-30 11:58:26 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:26 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:26 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:26 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:26 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 11:58:26 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pramu"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pramu
+2026-03-30 11:58:26 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:26 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:26 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Authentication berhasil
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pramuk"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pramuk
+2026-03-30 11:58:26 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:26 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:26 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:26 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:26 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:26 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 11:58:26 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:58:26 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:26 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 11:58:26 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:58:26 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:26 - getOutlet.php - Method: POST
+2026-03-30 04:58:26 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"pramuka"}
+2026-03-30 11:58:26 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: pramuka
+2026-03-30 11:58:27 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:27 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:27 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:27 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:27 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:27 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:27 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 11:58:27 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:58:29 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:58:29 - getOutlet.php - Method: POST
+2026-03-30 04:58:29 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"APOTEK 129 PRAMUKA"}
+2026-03-30 11:58:29 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: APOTEK 129 PRAMUKA
+2026-03-30 11:58:29 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:58:29 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:58:29 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:29 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:58:29 - getOutlet.php - Authentication berhasil
+2026-03-30 11:58:29 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:58:29 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:58:29 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:08 - getOutlet.php - Method: POST
+2026-03-30 04:59:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"bi"}
+2026-03-30 11:59:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: bi
+2026-03-30 11:59:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 11:59:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:08 - getOutlet.php - Method: POST
+2026-03-30 04:59:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"bint"}
+2026-03-30 04:59:08 - getOutlet.php - Method: POST
+2026-03-30 04:59:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"bin"}
+2026-03-30 11:59:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: bint
+2026-03-30 11:59:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: bin
+2026-03-30 11:59:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:08 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:08 - getOutlet.php - Query berhasil, mengembalikan 17 record
+2026-03-30 11:59:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:59:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 11:59:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:09 - getOutlet.php - Method: POST
+2026-03-30 04:59:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"binta"}
+2026-03-30 11:59:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: binta
+2026-03-30 11:59:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:09 - getOutlet.php - Query berhasil, mengembalikan 17 record
+2026-03-30 11:59:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:09 - getOutlet.php - Method: POST
+2026-03-30 04:59:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"bintan"}
+2026-03-30 11:59:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: bintan
+2026-03-30 11:59:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:09 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 11:59:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:09 - getOutlet.php - Method: POST
+2026-03-30 04:59:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"bintang"}
+2026-03-30 11:59:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: bintang
+2026-03-30 11:59:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:09 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:09 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 11:59:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:12 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:12 - getOutlet.php - Method: POST
+2026-03-30 04:59:12 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang farma"}
+2026-03-30 11:59:12 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang farma
+2026-03-30 11:59:12 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:12 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:12 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:12 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:12 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:12 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:12 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:12 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang farm"}
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang far"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang farm
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang far
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang fa"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang fa
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang f"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang f
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintan"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintan
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bint"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bint
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 04:59:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:15 - getOutlet.php - Method: POST
+2026-03-30 04:59:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek binta"}
+2026-03-30 11:59:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek binta
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 11:59:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:15 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:15 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:16 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:16 - getOutlet.php - Method: POST
+2026-03-30 04:59:16 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintq"}
+2026-03-30 11:59:16 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintq
+2026-03-30 11:59:16 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:16 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:16 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:16 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:16 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:16 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:16 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:16 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:16 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:16 - getOutlet.php - Method: POST
+2026-03-30 04:59:16 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintqn"}
+2026-03-30 11:59:16 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintqn
+2026-03-30 11:59:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:17 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:17 - getOutlet.php - Method: POST
+2026-03-30 04:59:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintqng"}
+2026-03-30 11:59:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintqng
+2026-03-30 11:59:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:17 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:17 - getOutlet.php - Method: POST
+2026-03-30 04:59:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintqn"}
+2026-03-30 11:59:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintqn
+2026-03-30 11:59:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:17 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:17 - getOutlet.php - Method: POST
+2026-03-30 04:59:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintq"}
+2026-03-30 11:59:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintq
+2026-03-30 11:59:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:17 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:17 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:18 - getOutlet.php - Method: POST
+2026-03-30 04:59:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bint"}
+2026-03-30 11:59:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bint
+2026-03-30 11:59:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:18 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:18 - getOutlet.php - Method: POST
+2026-03-30 04:59:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek binta"}
+2026-03-30 11:59:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek binta
+2026-03-30 11:59:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:18 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:18 - getOutlet.php - Method: POST
+2026-03-30 04:59:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintan"}
+2026-03-30 11:59:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintan
+2026-03-30 11:59:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:18 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:18 - getOutlet.php - Method: POST
+2026-03-30 04:59:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Apotek bintang"}
+2026-03-30 11:59:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Apotek bintang
+2026-03-30 11:59:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:18 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:18 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 04:59:21 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 04:59:21 - getOutlet.php - Method: POST
+2026-03-30 04:59:21 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"APOTEK BINTANG FARMA MEDIKA"}
+2026-03-30 11:59:21 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: APOTEK BINTANG FARMA MEDIKA
+2026-03-30 11:59:21 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 11:59:21 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 11:59:21 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:21 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 11:59:21 - getOutlet.php - Authentication berhasil
+2026-03-30 11:59:21 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 11:59:21 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 11:59:21 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:16 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:16 - getOutlet.php - Method: POST
+2026-03-30 05:00:16 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra"}
+2026-03-30 12:00:16 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra
+2026-03-30 12:00:16 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:16 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:16 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:16 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:16 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:16 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:16 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:00:16 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:17 - getOutlet.php - Method: POST
+2026-03-30 05:00:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra"}
+2026-03-30 12:00:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra
+2026-03-30 12:00:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:17 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:17 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:00:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:17 - getOutlet.php - Method: POST
+2026-03-30 05:00:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra m"}
+2026-03-30 12:00:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra m
+2026-03-30 12:00:17 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:17 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:17 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:17 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:17 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:17 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:17 - getOutlet.php - Query berhasil, mengembalikan 15 record
+2026-03-30 12:00:17 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:17 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:17 - getOutlet.php - Method: POST
+2026-03-30 05:00:17 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra me"}
+2026-03-30 12:00:17 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra me
+2026-03-30 12:00:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:18 - getOutlet.php - Query berhasil, mengembalikan 12 record
+2026-03-30 12:00:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:18 - getOutlet.php - Method: POST
+2026-03-30 05:00:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra medi"}
+2026-03-30 12:00:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra medi
+2026-03-30 12:00:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:18 - getOutlet.php - Query berhasil, mengembalikan 12 record
+2026-03-30 12:00:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:18 - getOutlet.php - Method: POST
+2026-03-30 05:00:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra med"}
+2026-03-30 12:00:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra med
+2026-03-30 05:00:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:18 - getOutlet.php - Method: POST
+2026-03-30 05:00:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra medika"}
+2026-03-30 12:00:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra medika
+2026-03-30 12:00:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:18 - getOutlet.php - Query berhasil, mengembalikan 9 record
+2026-03-30 12:00:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 12:00:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:18 - getOutlet.php - Query berhasil, mengembalikan 12 record
+2026-03-30 12:00:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:18 - getOutlet.php - Method: POST
+2026-03-30 05:00:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ra medik"}
+2026-03-30 12:00:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ra medik
+2026-03-30 12:00:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:18 - getOutlet.php - Query berhasil, mengembalikan 9 record
+2026-03-30 12:00:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:22 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:22 - getOutlet.php - Method: POST
+2026-03-30 05:00:22 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"APOTEK RA MEDIKA"}
+2026-03-30 12:00:22 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: APOTEK RA MEDIKA
+2026-03-30 12:00:22 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:22 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:22 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:22 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:22 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:22 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:22 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:00:22 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:44 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:44 - getOutlet.php - Method: POST
+2026-03-30 05:00:44 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ma"}
+2026-03-30 12:00:44 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ma
+2026-03-30 12:00:44 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:44 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:44 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:44 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:44 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:00:44 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:44 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:44 - getOutlet.php - Method: POST
+2026-03-30 05:00:44 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"mat"}
+2026-03-30 12:00:44 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: mat
+2026-03-30 12:00:44 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:44 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:44 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:44 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:44 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:00:44 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:44 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:44 - getOutlet.php - Method: POST
+2026-03-30 05:00:44 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"mata"}
+2026-03-30 12:00:44 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: mata
+2026-03-30 12:00:44 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:44 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:44 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:44 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:44 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:44 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:00:44 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:45 - getOutlet.php - Method: POST
+2026-03-30 05:00:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"matar"}
+2026-03-30 12:00:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: matar
+2026-03-30 12:00:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:45 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 12:00:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:45 - getOutlet.php - Method: POST
+2026-03-30 05:00:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"matara"}
+2026-03-30 12:00:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: matara
+2026-03-30 12:00:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:45 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 12:00:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:45 - getOutlet.php - Method: POST
+2026-03-30 05:00:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"mataraj"}
+2026-03-30 12:00:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: mataraj
+2026-03-30 12:00:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:45 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:00:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:45 - getOutlet.php - Method: POST
+2026-03-30 05:00:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"mataraja"}
+2026-03-30 12:00:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: mataraja
+2026-03-30 12:00:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:45 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:45 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:00:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:00:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:00:46 - getOutlet.php - Method: POST
+2026-03-30 05:00:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Mataraja Eye Center"}
+2026-03-30 12:00:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Mataraja Eye Center
+2026-03-30 12:00:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:00:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:00:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:00:46 - getOutlet.php - Authentication berhasil
+2026-03-30 12:00:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:00:46 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:00:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:07 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:07 - getOutlet.php - Method: POST
+2026-03-30 05:01:07 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"an"}
+2026-03-30 12:01:07 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: an
+2026-03-30 12:01:07 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:07 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:07 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:07 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:07 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:07 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:07 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:01:07 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:09 - getOutlet.php - Method: POST
+2026-03-30 05:01:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ann"}
+2026-03-30 12:01:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ann
+2026-03-30 12:01:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:09 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:09 - getOutlet.php - Query berhasil, mengembalikan 3 record
+2026-03-30 12:01:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:09 - getOutlet.php - Method: POST
+2026-03-30 05:01:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"annisa"}
+2026-03-30 12:01:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: annisa
+2026-03-30 05:01:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:09 - getOutlet.php - Method: POST
+2026-03-30 05:01:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"annis"}
+2026-03-30 12:01:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: annis
+2026-03-30 05:01:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:09 - getOutlet.php - Method: POST
+2026-03-30 05:01:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"anni"}
+2026-03-30 12:01:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: anni
+2026-03-30 12:01:10 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:10 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:10 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:10 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:10 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:10 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:10 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:10 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:10 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:10 - getOutlet.php - === END REQUEST ===
+2026-03-30 12:01:10 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:10 - getOutlet.php - === END REQUEST ===
+2026-03-30 12:01:10 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:10 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:10 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:10 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:10 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:10 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:10 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:14 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:14 - getOutlet.php - Method: POST
+2026-03-30 05:01:14 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"an nisa"}
+2026-03-30 12:01:14 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: an nisa
+2026-03-30 12:01:14 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:14 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:14 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:14 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:14 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:14 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:14 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:01:14 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:16 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:16 - getOutlet.php - Method: POST
+2026-03-30 05:01:16 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"annisa"}
+2026-03-30 12:01:16 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: annisa
+2026-03-30 12:01:16 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:16 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:16 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:16 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:16 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:16 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:16 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:16 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:20 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:20 - getOutlet.php - Method: POST
+2026-03-30 05:01:20 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rannisa"}
+2026-03-30 12:01:20 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rannisa
+2026-03-30 12:01:20 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:20 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:20 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:20 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:20 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:01:20 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:20 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:20 - getOutlet.php - Method: POST
+2026-03-30 05:01:20 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsannisa"}
+2026-03-30 12:01:20 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsannisa
+2026-03-30 12:01:20 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:20 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:20 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:20 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:20 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:01:20 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:20 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:20 - getOutlet.php - Method: POST
+2026-03-30 05:01:20 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rs annisa"}
+2026-03-30 12:01:20 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rs annisa
+2026-03-30 12:01:20 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:20 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:20 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:20 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:20 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:20 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:20 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:27 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:27 - getOutlet.php - Method: POST
+2026-03-30 05:01:27 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rs an-nisa"}
+2026-03-30 12:01:27 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rs an-nisa
+2026-03-30 12:01:27 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:27 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:27 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:27 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:27 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:27 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:27 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:27 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:28 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:28 - getOutlet.php - Method: POST
+2026-03-30 05:01:28 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"RS AN-NISA"}
+2026-03-30 12:01:28 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: RS AN-NISA
+2026-03-30 12:01:28 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:28 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:28 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:28 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:28 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:28 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:28 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:28 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:38 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:38 - getOutlet.php - Method: POST
+2026-03-30 05:01:38 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"be"}
+2026-03-30 12:01:38 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: be
+2026-03-30 12:01:38 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:38 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:38 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:38 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:38 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:01:38 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:38 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:38 - getOutlet.php - Method: POST
+2026-03-30 05:01:38 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ber"}
+2026-03-30 12:01:38 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ber
+2026-03-30 12:01:38 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:38 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:38 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:38 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:38 - getOutlet.php - Query berhasil, mengembalikan 7 record
+2026-03-30 12:01:38 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:38 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:38 - getOutlet.php - Method: POST
+2026-03-30 05:01:38 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"berk"}
+2026-03-30 12:01:38 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: berk
+2026-03-30 12:01:38 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:38 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:38 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:38 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:38 - getOutlet.php - Query berhasil, mengembalikan 3 record
+2026-03-30 12:01:38 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:38 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:38 - getOutlet.php - Method: POST
+2026-03-30 05:01:38 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"berka"}
+2026-03-30 12:01:38 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: berka
+2026-03-30 12:01:38 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:38 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:38 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:38 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:38 - getOutlet.php - Query berhasil, mengembalikan 3 record
+2026-03-30 12:01:38 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:38 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:38 - getOutlet.php - Method: POST
+2026-03-30 05:01:38 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"berkat"}
+2026-03-30 12:01:38 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: berkat
+2026-03-30 12:01:38 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:38 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:38 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:38 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:38 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:38 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 12:01:38 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:01:40 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:01:40 - getOutlet.php - Method: POST
+2026-03-30 05:01:40 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"PT. BERKAT MAHKOTA PUTRA"}
+2026-03-30 12:01:40 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: PT. BERKAT MAHKOTA PUTRA
+2026-03-30 12:01:40 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:01:40 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:01:40 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:40 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:01:40 - getOutlet.php - Authentication berhasil
+2026-03-30 12:01:40 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:01:40 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:01:40 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:14 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:14 - getOutlet.php - Method: POST
+2026-03-30 05:02:14 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu"}
+2026-03-30 12:02:14 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu
+2026-03-30 12:02:14 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:14 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:14 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:14 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:14 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:14 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:14 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:14 - getOutlet.php - Method: POST
+2026-03-30 05:02:14 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rs"}
+2026-03-30 12:02:14 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rs
+2026-03-30 05:02:14 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 12:02:14 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 05:02:14 - getOutlet.php - Method: POST
+2026-03-30 12:02:14 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 05:02:14 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu"}
+2026-03-30 12:02:14 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu
+2026-03-30 12:02:14 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:14 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:14 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:14 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:14 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:14 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:14 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:14 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:14 - getOutlet.php - === END REQUEST ===
+2026-03-30 12:02:14 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:14 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:15 - getOutlet.php - Method: POST
+2026-03-30 05:02:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu pe"}
+2026-03-30 12:02:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu pe
+2026-03-30 12:02:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:15 - getOutlet.php - Query berhasil, mengembalikan 5 record
+2026-03-30 12:02:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:15 - getOutlet.php - Method: POST
+2026-03-30 05:02:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu p"}
+2026-03-30 12:02:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu p
+2026-03-30 12:02:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:15 - getOutlet.php - Query berhasil, mengembalikan 10 record
+2026-03-30 12:02:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:15 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:15 - getOutlet.php - Method: POST
+2026-03-30 05:02:15 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu pek"}
+2026-03-30 12:02:15 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu pek
+2026-03-30 12:02:15 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:15 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:15 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:15 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:15 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:15 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:02:15 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:18 - getOutlet.php - Method: POST
+2026-03-30 05:02:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rs"}
+2026-03-30 12:02:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rs
+2026-03-30 12:02:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:18 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:18 - getOutlet.php - Method: POST
+2026-03-30 05:02:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu"}
+2026-03-30 12:02:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu
+2026-03-30 12:02:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:18 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:18 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:18 - getOutlet.php - Method: POST
+2026-03-30 05:02:18 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu"}
+2026-03-30 12:02:18 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu
+2026-03-30 12:02:18 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:18 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:18 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:18 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:18 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:18 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:02:18 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:19 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:19 - getOutlet.php - Method: POST
+2026-03-30 05:02:19 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu p"}
+2026-03-30 12:02:19 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu p
+2026-03-30 12:02:19 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:19 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:19 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:19 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:19 - getOutlet.php - Query berhasil, mengembalikan 10 record
+2026-03-30 12:02:19 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:19 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:19 - getOutlet.php - Method: POST
+2026-03-30 05:02:19 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu pe"}
+2026-03-30 12:02:19 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu pe
+2026-03-30 12:02:19 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:19 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:19 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:19 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:19 - getOutlet.php - Query berhasil, mengembalikan 5 record
+2026-03-30 12:02:19 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:19 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:19 - getOutlet.php - Method: POST
+2026-03-30 05:02:19 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"rsu pek"}
+2026-03-30 12:02:19 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: rsu pek
+2026-03-30 12:02:19 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:19 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:19 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:19 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:19 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:19 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:02:19 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:02:20 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:02:20 - getOutlet.php - Method: POST
+2026-03-30 05:02:20 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"RSU PEKERJA"}
+2026-03-30 12:02:20 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: RSU PEKERJA
+2026-03-30 12:02:20 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:02:20 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:02:20 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:20 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:02:20 - getOutlet.php - Authentication berhasil
+2026-03-30 12:02:20 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:02:20 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:02:20 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:08 - getOutlet.php - Method: POST
+2026-03-30 05:09:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rs"}
+2026-03-30 12:09:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rs
+2026-03-30 12:09:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:09:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:08 - getOutlet.php - Method: POST
+2026-03-30 05:09:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu"}
+2026-03-30 12:09:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu
+2026-03-30 12:09:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:09:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:08 - getOutlet.php - Method: POST
+2026-03-30 05:09:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu"}
+2026-03-30 12:09:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu
+2026-03-30 12:09:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:09:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:08 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:08 - getOutlet.php - Method: POST
+2026-03-30 05:09:08 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu"}
+2026-03-30 12:09:08 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu
+2026-03-30 12:09:08 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:08 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:08 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:08 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:08 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:08 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 12:09:08 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:09 - getOutlet.php - Method: POST
+2026-03-30 05:09:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu g"}
+2026-03-30 12:09:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu g
+2026-03-30 12:09:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:09 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:09 - getOutlet.php - Query berhasil, mengembalikan 3 record
+2026-03-30 12:09:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:09 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:09 - getOutlet.php - Method: POST
+2026-03-30 05:09:09 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu ga"}
+2026-03-30 12:09:09 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu ga
+2026-03-30 12:09:09 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:09 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:09 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:09 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:09 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:09 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:09 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 12:09:09 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:10 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:10 - getOutlet.php - Method: POST
+2026-03-30 05:09:10 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu gae"}
+2026-03-30 12:09:10 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu gae
+2026-03-30 12:09:10 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:10 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:10 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:10 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:10 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:10 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:10 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:09:10 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:10 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:10 - getOutlet.php - Method: POST
+2026-03-30 05:09:10 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu gaei"}
+2026-03-30 12:09:10 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu gaei
+2026-03-30 12:09:10 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:10 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:10 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:10 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:10 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:10 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:10 - getOutlet.php - Query berhasil, mengembalikan 0 record
+2026-03-30 12:09:10 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:11 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:11 - getOutlet.php - Method: POST
+2026-03-30 05:09:11 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"Rsu gading"}
+2026-03-30 12:09:11 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: Rsu gading
+2026-03-30 12:09:11 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:11 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:11 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:11 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:11 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:11 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:11 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:09:11 - getOutlet.php - === END REQUEST ===
+2026-03-30 05:09:19 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 05:09:19 - getOutlet.php - Method: POST
+2026-03-30 05:09:19 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"RSU Gading Pluit"}
+2026-03-30 12:09:19 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: RSU Gading Pluit
+2026-03-30 12:09:19 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 12:09:19 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 12:09:19 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:19 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 12:09:19 - getOutlet.php - Authentication berhasil
+2026-03-30 12:09:19 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 12:09:19 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 12:09:19 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:45 - getOutlet.php - Method: POST
+2026-03-30 08:47:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"ha"}
+2026-03-30 15:47:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: ha
+2026-03-30 15:47:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:45 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 15:47:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:45 - getOutlet.php - Method: POST
+2026-03-30 08:47:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"har"}
+2026-03-30 15:47:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: har
+2026-03-30 15:47:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:45 - getOutlet.php - Query berhasil, mengembalikan 20 record
+2026-03-30 15:47:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:45 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:45 - getOutlet.php - Method: POST
+2026-03-30 08:47:45 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"hara"}
+2026-03-30 15:47:45 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: hara
+2026-03-30 15:47:45 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:45 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:45 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:45 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:45 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:45 - getOutlet.php - Query berhasil, mengembalikan 11 record
+2026-03-30 15:47:45 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:46 - getOutlet.php - Method: POST
+2026-03-30 08:47:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harap"}
+2026-03-30 15:47:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harap
+2026-03-30 15:47:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:46 - getOutlet.php - Query berhasil, mengembalikan 11 record
+2026-03-30 15:47:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:46 - getOutlet.php - Method: POST
+2026-03-30 08:47:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapa"}
+2026-03-30 15:47:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapa
+2026-03-30 15:47:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:46 - getOutlet.php - Query berhasil, mengembalikan 11 record
+2026-03-30 15:47:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:46 - getOutlet.php - Method: POST
+2026-03-30 08:47:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan"}
+2026-03-30 15:47:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan
+2026-03-30 15:47:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:46 - getOutlet.php - Query berhasil, mengembalikan 11 record
+2026-03-30 15:47:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:46 - getOutlet.php - Method: POST
+2026-03-30 08:47:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan"}
+2026-03-30 15:47:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan
+2026-03-30 15:47:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:46 - getOutlet.php - Query berhasil, mengembalikan 11 record
+2026-03-30 15:47:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:46 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:46 - getOutlet.php - Method: POST
+2026-03-30 08:47:46 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan b"}
+2026-03-30 15:47:46 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan b
+2026-03-30 15:47:46 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:46 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:46 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:46 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:46 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:46 - getOutlet.php - Query berhasil, mengembalikan 2 record
+2026-03-30 15:47:46 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:47 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:47 - getOutlet.php - Method: POST
+2026-03-30 08:47:47 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan bu"}
+2026-03-30 15:47:47 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan bu
+2026-03-30 15:47:47 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:47 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:47 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:47 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:47 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 15:47:47 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:47 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:47 - getOutlet.php - Method: POST
+2026-03-30 08:47:47 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan bun"}
+2026-03-30 15:47:47 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan bun
+2026-03-30 15:47:47 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:47 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:47 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:47 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:47 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 15:47:47 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:47 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:47 - getOutlet.php - Method: POST
+2026-03-30 08:47:47 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan bund"}
+2026-03-30 15:47:47 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan bund
+2026-03-30 15:47:47 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:47 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:47 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:47 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:47 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 15:47:47 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:47 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:47 - getOutlet.php - Method: POST
+2026-03-30 08:47:47 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"harapan bunda"}
+2026-03-30 15:47:47 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: harapan bunda
+2026-03-30 15:47:47 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:47 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:47 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:47 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:47 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:47 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 15:47:47 - getOutlet.php - === END REQUEST ===
+2026-03-30 08:47:48 - getOutlet.php - === REQUEST GETOUTLET ===
+2026-03-30 08:47:48 - getOutlet.php - Method: POST
+2026-03-30 08:47:48 - getOutlet.php - POST data: {"tgl":"2026-03-30","encrypt":"0c4e1f6d56a630e9ca9c0ca0d5a36447","id_apl":"APL01","key":"RS Harapan Bunda "}
+2026-03-30 15:47:48 - getOutlet.php - Params - tgl: 2026-03-30, encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447, id_apl: APL01, key: RS Harapan Bunda
+2026-03-30 15:47:48 - getOutlet.php - Aplikasi ditemukan: Ya
+2026-03-30 15:47:48 - getOutlet.php - Key aplikasi: YbcJSFjkds...
+2026-03-30 15:47:48 - getOutlet.php - Expected encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:48 - getOutlet.php - Received encrypt: 0c4e1f6d56a630e9ca9c0ca0d5a36447
+2026-03-30 15:47:48 - getOutlet.php - Authentication berhasil
+2026-03-30 15:47:48 - getOutlet.php - Query: SELECT id_out, nama_out, '' AS alamat_out, ofcode_out
+            FROM outlet 
+            WHERE status_out IN ('Active', '1', 'active')
+            AND (nama_out LIKE :key OR ofcode_out LIKE :key)
+            ORDER BY nama_out ASC
+            LIMIT 20
+2026-03-30 15:47:48 - getOutlet.php - Query berhasil, mengembalikan 1 record
+2026-03-30 15:47:48 - getOutlet.php - === END REQUEST ===

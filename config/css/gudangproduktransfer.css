@@ -1,0 +1,352 @@
+/**
+ * Notification System Styles
+ * Modern alert notification component with customizable types and actions
+ */
+.alert-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(420px);
+    transition: transform 0.3s ease-out;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.alert-notification.show {
+    transform: translateX(0);
+}
+
+/* Notification header styling */
+.alert-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Notification icon variants */
+.alert-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.alert-icon-warning {
+    background-color: rgba(255, 193, 7, 0.15);
+    color: #ffab00;
+}
+
+.alert-icon-error {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: #dc3545;
+}
+
+.alert-icon-success {
+    background-color: rgba(25, 135, 84, 0.15);
+    color: #198754;
+}
+
+.alert-icon-info {
+    background-color: rgba(13, 110, 253, 0.15);
+    color: #0d6efd;
+}
+
+/* Notification content and controls */
+.alert-title {
+    font-weight: 600;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.alert-close {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #6c757d;
+    padding: 0;
+    margin-left: 10px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.alert-close:hover {
+    opacity: 1;
+}
+
+.alert-body {
+    padding: 15px 20px;
+    line-height: 1.5;
+    color: #343a40;
+}
+
+/* Notification action buttons */
+.alert-actions {
+    padding: 10px 20px 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.alert-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.alert-btn-primary {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.alert-btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.alert-btn-secondary {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.alert-btn-secondary:hover {
+    background-color: #e9ecef;
+}
+
+/* Progress bar for auto-close notifications */
+.alert-progress {
+    height: 3px;
+    background-color: #e9ecef;
+    width: 100%;
+    position: relative;
+}
+
+.alert-progress-bar {
+    height: 100%;
+    background-color: #0d6efd;
+    width: 100%;
+    animation: progress-shrink 5s linear forwards;
+}
+
+@keyframes progress-shrink {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
+
+/* Notification animations */
+.alert-shake {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translateX(-1px);
+    }
+    20%, 80% {
+        transform: translateX(2px);
+    }
+    30%, 50%, 70% {
+        transform: translateX(-4px);
+    }
+    40%, 60% {
+        transform: translateX(4px);
+    }
+}
+
+/**
+ * Modal and Table UI Styles
+ */
+#productSelectionTable th {
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+
+#productSelectionTable td {
+    vertical-align: middle;
+}
+
+.modal-xl {
+    max-width: 90%;
+}
+
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1140px;
+    }
+}
+
+/* Product info card styling */
+.card-body {
+    padding: 1rem;
+}
+
+/* Quantity input field styling */
+#transferQty {
+    font-weight: bold;
+}
+
+/* Table row interaction styling */
+#productSelectionTable tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+    cursor: pointer;
+}
+
+/**
+ * Modal Display Fixes
+ * Ensures proper rendering and transitions
+ */
+.modal {
+    transition: opacity 0.3s ease;
+}
+
+.modal.fade.show {
+    opacity: 1;
+}
+
+.modal-backdrop {
+    transition: opacity 0.3s ease;
+}
+
+/* Appropriate z-index values */
+.modal {
+    z-index: 1050;
+    /* Bootstrap default */
+}
+
+.modal-backdrop {
+    z-index: 1040;
+    /* Bootstrap default */
+}
+
+/* Modal content animations */
+.modal-content {
+    transform: scale(0.98);
+    opacity: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.modal.show .modal-content {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Table row transitions */
+#productTableBody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.bg-light-hover {
+    background-color: rgba(13, 110, 253, 0.05) !important;
+}
+
+/* Loading indicator animation */
+@keyframes pulse {
+    0% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+#productLoadingState {
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+/**
+ * Simple Modal Styles
+ * More reliable alternative to Bootstrap modal
+ */
+.simple-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+    padding: 10px;
+}
+
+.simple-modal-container {
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.simple-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.simple-modal-body {
+    padding: 15px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.simple-modal-footer {
+    padding: 15px;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.simple-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.simple-modal-close:hover {
+    opacity: 0.75;
+}
+
+/* Simple hover effect for better performance */
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+@media (max-width: 768px) {
+    .simple-modal-container {
+        width: 95%;
+        max-height: 95vh;
+    }
+}

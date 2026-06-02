@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test AJAX Response Fix</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="p-4">
+    <h3><i class="fas fa-bug"></i> Test AJAX Response Fix</h3>
+    <p class="text-muted">Testing the fixed loadProducts.php endpoint</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Test Parameters:</h5>
+            <div class="form-group">
+                <label>Principle:</label>
+                <input type="text" id="testPrinciple" class="form-control" value="Cendo" placeholder="Enter principle name">
+            </div>
+            <div class="form-group">
+                <label>Search:</label>
+                <input type="text" id="testSearch" class="form-control" placeholder="Enter search term (optional)">
+            </div>
+            <button onclick="testAjaxResponse()" class="btn btn-primary">
+                <i class="fas fa-play"></i> Test AJAX Call
+            </button>
+            <button onclick="clearResults()" class="btn btn-secondary ml-2">
+                <i class="fas fa-eraser"></i> Clear
+            </button>
+        </div>
+        
+        <div class="col-md-6">
+            <h5>Console Output:</h5>
+            <div id="console" class="border p-3 bg-light" style="height: 200px; overflow-y: scroll; font-family: monospace; font-size: 12px;"></div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <h5>AJAX Response:</h5>
+    <div id="responseStatus" class="mb-2"></div>
+    
+    <div class="table-responsive">
+        <table class="table table-striped table-hover" id="testTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nama Produk</th>
+                    <th>Batchcode</th>
+                    <th>Gudang</th>
+                    <th>Tgl. ED</th>
+                    <th>Stok</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody id="testTableBody">
+                <tr><td colspan="6" class="text-center text-muted py-4">Click "Test AJAX Call" to load products</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+    function log(message, type = 'info') {
+        var timestamp = new Date().toLocaleTimeString();
+        var color = type === 'error' ? 'red' : (type === 'success' ? 'green' : 'blue');
+        $('#console').append('<div style="color: ' + color + ';">[' + timestamp + '] ' + message + '</div>');
+        $('#console').scrollTop($('#console')[0].scrollHeight);
+        console.log(message);
+    }
+    
+    function clearResults() {
+        $('#console').empty();
+        $('#testTableBody').html('<tr><td colspan="6" class="text-center text-muted py-4">Click "Test AJAX Call" to load products</td></tr>');
+        $('#responseStatus').empty();
+    }
+    
+    function testAjaxResponse() {
+        var principle = $('#testPrinciple').val();
+        var search = $('#testSearch').val();
+        
+        log('Starting AJAX test...', 'info');
+        log('Principle: ' + principle);
+        log('Search: ' + search);
+        
+        $('#responseStatus').html('<div class="alert alert-info"><i class="fas fa-spinner fa-spin"></i> Loading...</div>');
+        $('#testTableBody').html('<tr><td colspan="6" class="text-center"><div class="spinner-border" role="status"></div></td></tr>');
+        
+        $.ajax({
+            url: 'ajax/loadProducts.php',
+            type: 'POST',
+            data: {
+                principle: principle,
+                mitra: 'TEST001',  // Test mitra
+                cart: '',
+                nomor: '1',
+                search: search
+            },
+            success: function(response) {
+                log('AJAX Success! Response length: ' + response.length, 'success');
+                
+                try {
+                    // Try to insert the response
+                    $('#testTableBody').html(response);
+                    $('#responseStatus').html('<div class="alert alert-success"><i class="fas fa-check"></i> Response loaded successfully!</div>');
+                    
+                    // Count rows
+                    var rowCount = $('#testTableBody tr').length;
+                    log('Rows generated: ' + rowCount, 'success');
+                    
+                    // Test event delegation
+                    $(document).off('click', '.product-row').on('click', '.product-row', function() {
+                        var productName = $(this).data('nama-pro');
+                        log('Product clicked: ' + productName, 'success');
+                        alert('Product selected: ' + productName);
+                    });
+                    
+                } catch(e) {
+                    log('Error processing response: ' + e.message, 'error');
+                    $('#responseStatus').html('<div class="alert alert-danger"><i class="fas fa-times"></i> Error: ' + e.message + '</div>');
+                }
+            },
+            error: function(xhr, status, error) {
+                log('AJAX Error: ' + error, 'error');
+                log('Status: ' + status, 'error');
+                log('Response: ' + xhr.responseText, 'error');
+                $('#responseStatus').html('<div class="alert alert-danger"><i class="fas fa-times"></i> AJAX Error: ' + error + '</div>');
+                $('#testTableBody').html('<tr><td colspan="6" class="text-center text-danger">Error loading data</td></tr>');
+            }
+        });
+    }
+    
+    // Test on page load
+    $(document).ready(function() {
+        log('Test page loaded successfully', 'success');
+        log('jQuery version: ' + $.fn.jquery, 'info');
+    });
+    </script>
+</body>
+</html>

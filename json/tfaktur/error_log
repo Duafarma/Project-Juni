@@ -1,0 +1,40 @@
+[02-Apr-2022 11:44:48 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:44:50 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:44:51 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:44:52 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:53:18 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:53:19 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:53:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35
+[02-Apr-2022 11:53:22 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.note' in 'field list' in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php:35
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.10/json/tfaktur/tfaktur.php on line 35

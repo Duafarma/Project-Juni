@@ -1,0 +1,12 @@
+[10-Apr-2022 14:59:39 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'imsc3529_ims.transaksi_faktur_p' doesn't exist in /home/imsc3529/public_html/192.268.908.09/config/function/data.php:337
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.09/config/function/data.php(337): PDO->query('SELECT MAX(sj_t...')
+#1 /home/imsc3529/public_html/192.268.908.09/ajax/ceksalesp/ceksalesp.php(21): Data->transcodepm('/IV/22', 'sj_tfk', 'transaksi_faktu...')
+#2 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.09/config/function/data.php on line 337
+[10-Apr-2022 14:59:41 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'imsc3529_ims.transaksi_faktur_p' doesn't exist in /home/imsc3529/public_html/192.268.908.09/config/function/data.php:337
+Stack trace:
+#0 /home/imsc3529/public_html/192.268.908.09/config/function/data.php(337): PDO->query('SELECT MAX(sj_t...')
+#1 /home/imsc3529/public_html/192.268.908.09/ajax/ceksalesp/ceksalesp.php(21): Data->transcodepm('/IV/22', 'sj_tfk', 'transaksi_faktu...')
+#2 {main}
+  thrown in /home/imsc3529/public_html/192.268.908.09/config/function/data.php on line 337

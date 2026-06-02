@@ -1,0 +1,10 @@
+<?php
+	header("Content-Type: text/csv");
+	header("Cache-Control: no-cache, must-revalidate");
+	header("Expires: Template"); 
+	header("content-disposition:attachment; filename=template_upload_pembayaran_sales.csv");
+?>
+Kode Faktur,Bank,No Rekening,Nama,Jumlah Bayar,Tanggal
+0015.01.01/FKT/AP/III/26,BCA,1234567890,Toko ABC,1000000,2026-03-31
+0016.01.01/FKT/AP/III/26,Mandiri,0987654321,Toko XYZ,500000,2026-03-31
+0017.01.01/FKT/AP/III/26,BNI,1122334455,Apotek Sehat,2500000,2026-03-31

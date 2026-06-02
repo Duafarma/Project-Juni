@@ -1,0 +1,39 @@
+*{
+	font-family:Calibri, Helvetica, sans-serif;
+}
+.tabel{
+	width:100%;
+	font-family:Calibri, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+}
+.tabel th{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #666666;
+}
+.tabel td{
+	padding:3px 5px 3px 5px;
+	border:solid 1px #666666;
+}
+
+.tabelinfo{
+	width:100%;
+	font-family:Calibri, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+	border:solid 1px #666666;
+}
+.tabelinfo th{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 5px 3px 5px;
+	border-top:solid 1px #666666;
+	border-bottom:solid 1px #666666;
+}
+.tabelinfo td{
+	padding:3px 5px 3px 5px;
+	border-top:solid 1px #666666;
+	border-bottom:solid 1px #666666;
+}

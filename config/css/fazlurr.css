@@ -1,0 +1,100 @@
+a :hover{ cursor:pointer; }
+.inputangka{
+	width:70px;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #666666;
+	border-radius:3px;
+	text-align:right;
+	font-size:12px;
+}
+.inputrans{
+	width:75px;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #666666;
+	border-radius:3px;
+	text-align:left;
+	font-size:12px;
+}
+.inputtotal{
+	width:85px;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #666666;
+	border-radius:3px;
+	text-align:right;
+	font-size:12px;
+}
+.tabeltransaksi{
+	width:100%;
+	font-family:Calibri, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+}
+.tabeltransaksi th{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 5px 3px 5px;
+	border-top:solid 1px #999999;
+	border-bottom:solid 1px #999999;
+}
+.tabeltransaksi td{
+	padding:3px 5px 3px 5px;
+	border-bottom:solid 1px #999999;
+}
+.tabelrole{
+	width:100%;
+	font-family:Calibri Light, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+}
+.tabelrole th{
+	background:#CCCCCC;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 5px 3px 5px;
+	border-top:solid 1px #999999;
+	border-bottom:solid 1px #999999;
+}
+.tabelrole td{
+	padding:3px 5px 3px 5px;
+	border-bottom:solid 1px #999999;
+}
+.tabelrole tr:nth-child(even){
+    background-color:#EEEEEE;
+}
+.tabelrole tr:hover{
+	background:#DDDDDD;
+}
+.tabelmini{
+	width:100%;
+	font-family:Calibri Light, Helvetica, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+}
+.tabelmini th{
+	background:#EEEEEE;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 5px 3px 5px;
+	border:solid 1px #999999;
+}
+.tabelmini td{
+	padding:3px 5px 3px 5px;
+	border:solid 1px #999999;
+}
+.tabelmini tr:hover{
+	background:#EEEEEE;
+	cursor:pointer;
+}
+.tabelgetdata{
+}
+.tabelgetdata th{
+}
+.tabelgetdata td{
+}
+.tabelgetdata tr:hover{
+	background:#EEEEEE;
+	cursor:pointer;
+}
+.tahunbulan{
+	width:100%; padding:5px 10px 5px 10px; border:solid 1px #CCCCCC; border-radius:1px;
+}
