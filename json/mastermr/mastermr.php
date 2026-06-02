@@ -8,6 +8,17 @@
 	$data	= new Data;
 	$paging	= new Paging;
 	$conn	= $base->open();
+	$conn->exec("CREATE TABLE IF NOT EXISTS `master_mr_baru` (
+		`id_mr` int(11) NOT NULL AUTO_INCREMENT,
+		`nama_mr` varchar(255) NOT NULL DEFAULT '',
+		`area` varchar(255) NOT NULL DEFAULT '',
+		`ket` text DEFAULT NULL,
+		`created_at` datetime NOT NULL,
+		`created_by` varchar(100) NOT NULL,
+		`updated_at` datetime DEFAULT NULL,
+		`updated_by` varchar(100) DEFAULT NULL,
+		PRIMARY KEY (`id_mr`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
 	
 	//ACCESS DATA
 	$admin	= $secu->injection(@$_COOKIE['adminkuy']);
@@ -29,9 +40,13 @@
 	} else {
 		$tabel	= '';
 		$no		= $mulai;
-		$jumlah	= $conn->query("SELECT COUNT(id_mr) AS total FROM master_mr WHERE nama_mr LIKE '%$cari%' OR area LIKE '%$cari%'")->fetch(PDO::FETCH_ASSOC);
+		$jumlahStmt = $conn->prepare("SELECT COUNT(id_mr) AS total FROM master_mr_baru WHERE nama_mr LIKE :cari OR area LIKE :cari");
+		$jumlahStmt->bindValue(':cari', '%'.$cari.'%', PDO::PARAM_STR);
+		$jumlahStmt->execute();
+		$jumlah	= $jumlahStmt->fetch(PDO::FETCH_ASSOC);
 		
-		$master	= $conn->prepare("SELECT id_mr, nama_mr, area, ket FROM master_mr WHERE nama_mr LIKE '%$cari%' OR area LIKE '%$cari%' ORDER BY nama_mr ASC LIMIT :mulai, :maxi");
+		$master	= $conn->prepare("SELECT id_mr, nama_mr, area, ket FROM master_mr_baru WHERE nama_mr LIKE :cari OR area LIKE :cari ORDER BY nama_mr ASC LIMIT :mulai, :maxi");
+		$master->bindValue(':cari', '%'.$cari.'%', PDO::PARAM_STR);
 		$master->bindValue(':mulai', $mulai, PDO::PARAM_INT);
 		$master->bindValue(':maxi', $maxi, PDO::PARAM_INT);
 		$master->execute();

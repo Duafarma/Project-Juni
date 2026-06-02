@@ -215,7 +215,7 @@
     RewriteRule ^outletbaru/v/(.*)$ sistem.php?menu=voutletbaru&keycode=$1 [L]
     RewriteRule ^outletbaru/e/(.*)$ sistem.php?menu=eoutletbaru&keycode=$1 [L]
     
-     RewriteRule ^stockopname$ sistem.php?menu=stockopname [L]
+    RewriteRule ^stockopname$ sistem.php?menu=stockopname [L]
     RewriteRule ^stockopname/i$ sistem.php?menu=istockopname [L]
     RewriteRule ^stockopname/v$ sistem.php?menu=vstockopname [L]
     RewriteRule ^stockopname/v/(.*)$ sistem.php?menu=vstockopname&keycode=$1 [L]
@@ -237,7 +237,7 @@
     RewriteRule ^stockopnameap/v$ sistem.php?menu=vstockopnameap [L]
     RewriteRule ^stockopnameap/v/(.*)$ sistem.php?menu=vstockopnameap&keycode=$1 [L]
     RewriteRule ^stockopnameap/e/(.*)$ sistem.php?menu=estockopnameap&keycode=$1 [L]
-     RewriteRule ^stockopnamein$ sistem.php?menu=stockopnamein [L]
+    RewriteRule ^stockopnamein$ sistem.php?menu=stockopnamein [L]
     RewriteRule ^stockopnamein/i$ sistem.php?menu=istockopnamein [L]
     RewriteRule ^stockopnamein/v/(.*)$ sistem.php?menu=vstockopnamein&keycode=$1 [L]
     RewriteRule ^stockopnamein/e/(.*)$ sistem.php?menu=estockopnamein&keycode=$1 [L]
@@ -528,11 +528,14 @@
     
     RewriteRule ^outlet/legal/(.*)$ sistem.php?menu=legaloutlet&keycode=$1 [L]
     
-      RewriteRule ^rdokumenbalik$ sistem.php?menu=rdokumenbalik [L]
+    RewriteRule ^rdokumenbalik$ sistem.php?menu=rdokumenbalik [L]
     RewriteRule ^rdokumenfailing$ sistem.php?menu=rdokumenfailing [L]
     
-        RewriteRule ^rdokumenbalik/cari=(.*)$ sistem.php?menu=rdokumenbalik&cari=$1 [L]
+    RewriteRule ^rdokumenbalik/cari=(.*)$ sistem.php?menu=rdokumenbalik&cari=$1 [L]
     RewriteRule ^rdokumenfailing/cari=(.*)$ sistem.php?menu=rdokumenfailing&cari=$1 [L]
+
+    RewriteRule ^mastermr$ sistem.php?menu=mastermr [L]
+    RewriteRule ^mastermr/cari=(.*)$ sistem.php?menu=mastermr&cari=$1 [L]
 
     RewriteRule ^masterprogramproduk$ sistem.php?menu=masterprogramproduk [L]
     RewriteRule ^masterprogramproduk/i$ sistem.php?menu=imasterprogramproduk [L]

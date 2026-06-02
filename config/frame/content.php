@@ -1015,6 +1015,10 @@ switch ($menu) {
 		require_once("content/masterprogramproduk/edit.php");
 		break;
 
+	case "mastermr":
+		require_once("content/mastermr/mastermr.php");
+		break;
+
 	case "master_program_produk":
 		require_once("content/master_program_produk/master_program_produk.php");
 		break;

@@ -7,6 +7,17 @@
 	$data	= new Data;
 	$conn	= $base->open();
 	$modal	= $secu->injection(@$_GET['modal']);
+    $conn->exec("CREATE TABLE IF NOT EXISTS `master_mr_baru` (
+        `id_mr` int(11) NOT NULL AUTO_INCREMENT,
+        `nama_mr` varchar(255) NOT NULL DEFAULT '',
+        `area` varchar(255) NOT NULL DEFAULT '',
+        `ket` text DEFAULT NULL,
+        `created_at` datetime NOT NULL,
+        `created_by` varchar(100) NOT NULL,
+        `updated_at` datetime DEFAULT NULL,
+        `updated_by` varchar(100) DEFAULT NULL,
+        PRIMARY KEY (`id_mr`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
 	
 	switch($modal){
 		case "input":
@@ -46,7 +57,7 @@
 		break;
 		case "update":
 		$kode	= $secu->injection($_GET['keycode']);
-		$read	= $conn->prepare("SELECT nama_mr, area, ket FROM master_mr WHERE id_mr=:kode");
+        $read	= $conn->prepare("SELECT nama_mr, area, ket FROM master_mr_baru WHERE id_mr=:kode");
 		$read->bindParam(':kode', $kode, PDO::PARAM_STR);
 		$read->execute();
 		$view	= $read->fetch(PDO::FETCH_ASSOC);
