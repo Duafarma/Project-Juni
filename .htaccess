@@ -416,6 +416,7 @@
     
     RewriteRule ^inventoryretur$ sistem.php?menu=inventoryretur [L]
     RewriteRule ^inventoryretur/cari=(.*)$ sistem.php?menu=inventoryretur&cari=$1 [L]
+    RewriteRule ^transferretur$ sistem.php?menu=transferretur [L]
     
     RewriteRule ^produkdpe$ sistem.php?menu=produkdpe [L]
     RewriteRule ^produkdpe/cari=(.*)$ sistem.php?menu=produkdpe&cari=$1 [L]
@@ -462,6 +463,10 @@
     RewriteRule ^fsalesb/e/(.*)$ sistem.php?menu=efsalesb&keycode=$1 [L]
     RewriteRule ^fsalesb/v/(.*)$ sistem.php?menu=vfsalesb&keycode=$1 [L]
     
+    RewriteRule ^transferir$ sistem.php?menu=transferir [L]
+    RewriteRule ^transferir/i$ sistem.php?menu=itransferir [L]
+    RewriteRule ^transferir/v/(.*)$ sistem.php?menu=vtransferir&keycode=$1 [L]
+
      RewriteRule ^transferretur$ sistem.php?menu=transferretur [L]
     RewriteRule ^transferretur/cari=(.*)$ sistem.php?menu=transferretur&cari=$1 [L] 
     RewriteRule ^transferretur/i$ sistem.php?menu=itransferretur [L]

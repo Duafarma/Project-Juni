@@ -26,7 +26,7 @@
 				<li class="breadcrumb-item active" aria-current="page">Daftar Faktur Manual</li>
 			</ol>
 		</nav>
-		<h4 class="content-title"><i class="fa fa-check text-danger"></i> Daftar Faktur Manual</h4>
+		<h4 class="content-title"><i class="fa fa-check text-danger"></i> Daftar SPB</h4>
 	</div>
 </div>
 <div class="content-body">
@@ -41,9 +41,9 @@
 				<thead class="bg-danger text-white">
 					<tr>
 						<th width="5%"><center>#</center></th>
-						<th width="20%">No. Faktur Manual</th>
-						<th width="25%">Pelanggan (MR)</th>
-						<th width="15%">Faktur Asli</th>
+						<th width="20%">No. SPB</th>
+						<th width="25%">Pelanggan</th>
+						<th width="15%">Faktur Penjualan</th>
 						<th width="15%"><div align="right">Total</div></th>
 						<th width="10%"><center>Tgl Buat</center></th>
 						<th width="10%"><center>Aksi</center></th>
@@ -51,7 +51,7 @@
 				</thead>
 				<tbody>
 				<?php if(empty($rows)): ?>
-					<tr><td colspan="7" class="text-center text-muted">Belum ada faktur manual.</td></tr>
+					<tr><td colspan="7" class="text-center text-muted">Belum ada SPB.</td></tr>
 				<?php else: ?>
 				<?php $no = $offset + 1; foreach($rows as $r): ?>
 					<tr>

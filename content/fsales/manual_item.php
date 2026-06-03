@@ -30,10 +30,12 @@
 	$items = [];
 	try {
 		$qItems = $conn->prepare("SELECT D.id_tfd, D.id_psd, D.id_pro, D.jumlah_tfd, D.harga_tfd, D.diskon_tfd, D.total_tfd, 
-									P.nama_pro, S.nama_spr
-								FROM transaksi_fakturdetail D
-								LEFT JOIN produk P ON D.id_pro = P.id_pro
-								LEFT JOIN satuan_produk S ON P.id_spr = S.id_spr
+								P.nama_pro, S.nama_spr,
+								COALESCE(H.hargap_phg, D.harga_tfd) AS harga_display
+							FROM transaksi_fakturdetail D
+							LEFT JOIN produk P ON D.id_pro = P.id_pro
+							LEFT JOIN satuan_produk S ON P.id_spr = S.id_spr
+							LEFT JOIN produk_harga H ON D.id_pro = H.id_pro AND H.status_phg = 'Active'
 								WHERE D.id_tfk = :code
 								ORDER BY D.id_tfd ASC");
 		$qItems->bindParam(':code', $code, PDO::PARAM_STR);
@@ -58,17 +60,17 @@
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Penjualan</a></li>
                 <li class="breadcrumb-item"><a href="<?php echo $sistem; ?>/fsales">Faktur Penjualan</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Faktur Manual</li>
+                <li class="breadcrumb-item active" aria-current="page"> SPB</li>
             </ol>
         </nav>
-        <h4 class="content-title"><i class="fa fa-check text-danger"></i> Faktur Manual</h4>
+        <h4 class="content-title"><i class="fa fa-check text-danger"></i> SPB</h4>
     </div>
 </div>
-<div class="content-body">
+<div class="content-body"
     <div class="component-section no-code">
         <?php if($existingManual): ?>
         <div class="alert alert-warning">
-            <i class="fa fa-exclamation-triangle"></i> Faktur ini sudah pernah dibuat manual pada <strong><?php echo $existingManual['created_at']; ?></strong> 
+            <i class="fa fa-exclamation-triangle"></i> SPB ini sudah pernah dibuat manual pada <strong><?php echo $existingManual['created_at']; ?></strong> 
             (Total: Rp <?php echo number_format($existingManual['total_tfm'], 0, ',', '.'); ?>). 
             Menyimpan lagi akan membuat record manual baru.
         </div>
@@ -76,8 +78,8 @@
 
         <div class="row mg-b-20">
             <div class="col-sm-3">
-                <label><strong>Nomor Faktur Manual</strong></label>
-                <input type="text" name="kode_manual" class="form-control" placeholder="Masukkan No. Faktur" required />
+                <label><strong>Nomor SPB</strong></label>
+                <input type="text" name="kode_manual" class="form-control" placeholder="Masukkan No. SPB" required />
             </div>
             <div class="col-sm-3">
                 <label><strong>Outlet</strong></label>
@@ -129,7 +131,7 @@
                         <td><center><?php echo number_format($itm['jumlah_tfd'], 0, ',', '.'); ?></center></td>
                         <td>
                             <input type="text" name="harga[]" class="form-control text-right harga-manual" 
-                                   value="<?php echo number_format($itm['harga_tfd'], 0, ',', '.'); ?>" 
+                                   value="<?php echo number_format($itm['harga_display'], 0, ',', '.'); ?>" 
                                    onkeyup="hitungTotalManual(this)" />
                         </td>
                         <td>
@@ -166,7 +168,7 @@
         <div class="row row-sm">
             <div class="col-sm-12">
                 <a href="<?php echo $sistem; ?>/fsales" title="Batal"><button type="button" class="btn btn-secondary">Batal</button></a>
-                <button type="submit" id="bsave" class="btn btn-danger"><i class="fa fa-check"></i> Simpan Faktur Manual</button>
+                <button type="submit" id="bsave" class="btn btn-danger"><i class="fa fa-check"></i> Simpan SPB</button>
                 <div id="imgloading"></div>
             </div>
         </div>

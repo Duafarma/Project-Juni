@@ -154,7 +154,7 @@
 			<tr>
 				<td style="width:30%; text-align:center;">Penerima</td>
 				<td style="width:40%;"></td>
-				<td style="width:30%; text-align:center;">TTD dan CAP</td>
+				<td style="width:30%; text-align:center;"></td>
 			</tr>
 			<tr style="height:60px;">
 				<td></td>
@@ -169,11 +169,7 @@
 							<td>&nbsp;:&nbsp;</td>
 							<td style="border-bottom:1px solid #000; min-width:150px;">&nbsp;</td>
 						</tr>
-						<tr>
-							<td>Jabatan</td>
-							<td>&nbsp;:&nbsp;</td>
-							<td style="border-bottom:1px solid #000; min-width:150px;">&nbsp;</td>
-						</tr>
+						
 					</table>
 				</td>
 				<td></td>

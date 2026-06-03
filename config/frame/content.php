@@ -805,6 +805,9 @@ switch ($menu) {
 	case "inventoryretur":
 		require_once("content/inventoryretur/inventoryretur.php");
 		break;
+	case "transferretur":
+		require_once("content/inventoryretur/transferretur.php");
+		break;
 
 	case "produkdpe":
 		require_once("content/produkdpe/produkdpe.php");
@@ -914,6 +917,15 @@ switch ($menu) {
 		break;
 	case "vtransferretur":
 		require_once("content/transferretur/view.php");
+		break;
+	case "transferir":
+		require_once("content/transferir/transferir.php");
+		break;
+	case "itransferir":
+		require_once("content/transferir/input.php");
+		break;
+	case "vtransferir":
+		require_once("content/transferir/view.php");
 		break;
 
 	case "faktur_retur":
